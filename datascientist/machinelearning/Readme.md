@@ -45,11 +45,11 @@
 
     a.  **Using Decision Tree**: **DSX Notebooks**, **Brunel**, **R** 
     
-    ![Decision Tree Lab Flow] (https://raw.githubusercontent.com/ibmdataworks/datafirst/tree/master/datascientist/machinelearning/doc/media/Decision-Tree-Lab-Flow.jpg "Decision Tree Lab Flow")
+    ![Decision Tree Lab Flow] (https://raw.githubusercontent.com/ibmdataworks/datafirst/master/datascientist/machinelearning/doc/media/Decision-Tree-Lab-Flow.jpg "Decision Tree Lab Flow")
 
     b.  **Using Association Rules**: **DSX RStudio** 
     
-    ![Association Rules Lab Flow] (https://raw.githubusercontent.com/ibmdataworks/ibmdataworks/datafirst/tree/master/datascientist/machinelearning/doc/media/Association-Rules-Lab-Flow.jpg "Association Rules Lab Flow")
+    ![Association Rules Lab Flow] (https://raw.githubusercontent.com/ibmdataworks/datafirst/master/datascientist/machinelearning/doc/media/Association-Rules-Lab-Flow.jpg "Association Rules Lab Flow")
 
 
 ##Before You Begin
