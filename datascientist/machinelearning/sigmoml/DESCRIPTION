@@ -1,0 +1,11 @@
+Package: sigmoml
+Title: Sigmoml prepares models data for dynamic visualization with Brunel
+Version: 0.5
+Authors@R: person("Alexander", "Petrov", email = "apetrov@us.ibm.com", role = c("aut", "cre"))
+Description: Converts C5.0 and simpleparty decision tree classification model to a data frame.
+Depends: R (>= 3.2.1)
+Imports: partykit, C50, plyr
+License: Apache License, Version 2.0 
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
