@@ -153,11 +153,11 @@ Initialize Target Data Repository: SDK for Node.js Runtime Service
 
  > *Populate the repo with the starter app package and enable the Build & Deploy pipeline?*
 
-	g.  Tick the box and click Continue
+	g.  **Tick the box** and click **Continue**
 
 	h.  Once the Git repo is created you will be notified. Click **Close**
 
-	i.  In the Continuous Deliver panel select Configure
+	i.  In the Continuous Deliver panel select **Configure**
 
 	j.  You should see two stages which have been created for you. One for Build and the other for Deploy.
 
