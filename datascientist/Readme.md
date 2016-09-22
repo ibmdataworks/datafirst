@@ -19,5 +19,3 @@ From here you can create a new project, notebook, or connection. You can also ex
 
 ![dsx start](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/dsxStart.png)
 
-Whenever you want to return to your homepage, click the IBM Data Science Experience button.
-
