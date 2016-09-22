@@ -23,7 +23,7 @@ Before You Begin
 
 2.  https://github.com/ibmdataworks/datafirst/tree/master/appdeveloper/nodejsDashboard.zip
 
- > NOTE: If you don’t have a Bluemix account then get started for free by registering using the following steps:
+> NOTE: If you don’t have a Bluemix account then get started for free by registering using the following steps:
 
 1.  Go to [www.bluemix.net](http://www.bluemix.net)
 
