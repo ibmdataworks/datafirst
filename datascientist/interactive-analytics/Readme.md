@@ -60,11 +60,14 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 ### Create Notebook in Data Science Experience
 
 1. On next screen, click on ‘New Notebook’ to create a notebook.
-![new notebook](https://github.com/gfilla/testing/raw/master/media/newNotebook.gif)
-2. Type ‘IA_Lab_Notebook’ as Notebook name, click on ‘from URL’ link and specify: https://github.com/ibmdataworks/sigmo-demos/tree/master/data-scientist/interactive-analytics/DSX_IA_Lab.ipynb
-![start notebook](https://github.com/gfilla/testing/raw/master/media/createNotebook.gif)
-a.	 Select ‘Trust this Notebook to run with your Privileges’ and click on ‘Create Notebook’
-![trust notebook](https://github.com/gfilla/testing/raw/master/media/sparkService.gif)
+ ![new notebook](https://github.com/gfilla/testing/raw/master/media/newNotebook.gif)
+2. Type ‘IA_Lab_Notebook’ as Notebook name, click on ‘from URL’ link and specify:  https://github.com/ibmdataworks/sigmo-demos/tree/master/data-scientist/interactive-analytics/DSX_IA_Lab.ipynb
+
+ ![start notebook](https://github.com/gfilla/testing/raw/master/media/createNotebook.gif)
+
+  a.	 Select ‘Trust this Notebook to run with your Privileges’ and click on ‘Create Notebook’
+  
+ ![trust notebook](https://github.com/gfilla/testing/raw/master/media/sparkService.gif)
 1. Once notebook is created, add connection details to access data sources.
 
   a.	On top left menu, click Menu -> Connections -> Create Connection
