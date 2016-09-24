@@ -134,7 +134,7 @@ instructions:
 
 1.  In DSX, go to user profile settings ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/User-Profile-in-DSX.png)
 
-2.  Go to manage Bluemix account ![]![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Manage-bluemix-account.png)
+2.  Go to manage Bluemix account ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Manage-bluemix-account.png)
 
 3.  From the Bluemix dashboard catalog menu search for “Object Storage”
 
@@ -176,11 +176,11 @@ please start from the step 3):
 
     a.  Click on “NOTEBOOKS” button (it is highlighted in the green rectangle on the previous snapshot)
 
-    b.  Click on Object Storage tab (it is highlighted with the red rectangle): ![](media/image8.jpeg)
+    b.  Click on Object Storage tab (it is highlighted with the red rectangle): ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Bluemix-connecting-spark-to-object-storage.jpg)
 
-    c.  Click on “Add Object Storage”: ![](media/image9.jpeg)
+    c.  Click on “Add Object Storage”: ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Bluemix-connecting-spark-to-object-storage-adding-storage.jpg)
 
-    d.  In the new screen, switch to Bluemix and select the Object Storage service and the container that you provisioned for this lab: ![](media/image10.jpeg)
+    d.  In the new screen, switch to Bluemix and select the Object Storage service and the container that you provisioned for this lab: ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Bluemix-connecting-spark-to-object-storage-confirming.jpg)
 
     e.  Click on “Select”: the provisioning of Apache Spark Service for DSX has been finished
 
@@ -192,9 +192,9 @@ please start from the step 3):
 
 ###Importing Notebooks for Machine Learning Lab
 
-1.  From DSX, select DSX data science mode (the button to click on is highlighted with the red rectangle): ![](media/image11.png)
+1.  From DSX, select DSX data science mode (the button to click on is highlighted with the red rectangle): ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
 
-2.  From the DSX home page in Data Science mode, click on “Start” to  create a new notebook: ![](media/image12.jpeg)
+2.  From the DSX home page in Data Science mode, click on “Start” to  create a new notebook: ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Start-or-use-a-notebook.jpg)
 
 3.  In the next screen named “Create Notebook”, switch to “From File” tab, name the notebook “ML Lab Installation”, and choose the notebook file on your disk from the archive: ml-lab-installation.ipynb; alternatively you can switch to “From  URL” tab and use the following “Notebook URL”:
 > https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/labs/ml-lab-installation.ipynb
