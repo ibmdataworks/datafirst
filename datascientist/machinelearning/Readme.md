@@ -226,7 +226,8 @@ by switching to the provisioned Object Storage service.
     ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Replacing-the-object-storage-service-inserting-cell.jpg)
 
     c.  Clicking on “Insert to code” on Transactions.csv will show the options to insert the code: choose “insert base DataFrame” :
-    ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Inserting-code-into-notebook.jpg)
+
+ ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Inserting-code-into-notebook.jpg)
 
     d.  Here is a similar code that will be inserted into your new cell: ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Replacing-the-object-storage-service-the-code-inserted.jpg)
 
@@ -263,7 +264,7 @@ by switching to the provisioned Object Storage service.
 
 2.  Open “Machine Learning with DSX - Lab” notebook in the list by clicking on the name of the notebook
 
-3.  Execute every code section in the order in which the sections appear by clicking on the button ![](media/image19.png) or by using the menu Cell&gt; Run Cells. The lab covers the following actions:
+3.  Execute every code section in the order in which the sections appear by clicking on the button ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Execute-section.png) or by using the menu Cell&gt; Run Cells. The lab covers the following actions:
 
     a.  Declaring the libraries used in the lab
 
@@ -283,7 +284,7 @@ by switching to the provisioned Object Storage service.
 
 4.  \[Optional step\] Clean-up the output of all sections to prepare the lab for the next user: click on Cell&gt;All Output&gt;Clear
 
-5.  Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks (click on the Notebooks:![](media/image20.jpeg))
+5.  Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks (click on the Notebooks:![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Going-back-to-list-of-notebooks.jpg))
 
 ***End of Lab: Decision Tree***
 
@@ -294,17 +295,17 @@ by switching to the provisioned Object Storage service.
 ###Starting RStudio
 
 1.  Select DSX data science mode (please use the highlighted item to get to this menu):
-![](media/image11.png)
+![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
 
-2.  Click on the menu icon ![](media/image21.png) on the home page of DSX in Data Science mode
+2.  Click on the menu icon ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Left-bar-menu-button.png) on the home page of DSX in Data Science mode
 
 3.  Select RStudio in the open tool bar: RStudio session starts
-![](media/image22.jpeg)
+![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-side-toolbar.jpg)
 
 ###Importing Source Code and Data for Machine Learning Lab in RStudio
 
 1.  In “Files” tab use “New folder” to create 2 folders in the user’s home directory - data and demo (please do not mix it with the “File” menu item in the main menu and locate “Files” in the frame depicted here):
-> ![](media/image23.jpeg)
+> ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-Files-tab.jpg)
 
 2.  Using “Upload” button upload transactions.csv into the data folder and RStudio-apriori-demo-installation.R, RStudio-apriori-demo.R into the demo folder
 
@@ -312,9 +313,9 @@ by switching to the provisioned Object Storage service.
 ###Installing Software Libraries and Packages
 
 1.  Double-click on the name of the file RStudio-apriori-demo-installation.R: RStudio will open the source code:
-> ![](media/image24.jpeg)
+> ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-Source-code.jpg)
 
-2.  Run the code in RStudio-apriori-demo-installation.R using the Run button ![](media/image25.png): please decline the options to update any packages while installing the new packages
+2.  Run the code in RStudio-apriori-demo-installation.R using the Run button ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-running-source-code.png): please decline the options to update any packages while installing the new packages
 
 3.  Check point: ensure that all packages install without errors
 
@@ -327,7 +328,7 @@ by switching to the provisioned Object Storage service.
 
 1.  Click on the name of the file RStudio-apriori-demo.R: RStudio will open the source code
 
-2.  Execute every code section in the order in which the sections appear by clicking on the button ![](media/image25.png) . The lab covers the following actions:
+2.  Execute every code section in the order in which the sections appear by clicking on the button ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-running-source-code.png) . The lab covers the following actions:
 
     a.  Declaring the libraries used in the lab
 
