@@ -225,7 +225,8 @@ by switching to the provisioned Object Storage service.
 
     ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Replacing-the-object-storage-service-inserting-cell.jpg)
 
-    c.  Clicking on “Insert to code” on Transactions.csv will show the options to insert the code: choose “insert base DataFrame” : ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Inserting-code-into-notebook.jpg)
+    c.  Clicking on “Insert to code” on Transactions.csv will show the options to insert the code: choose “insert base DataFrame” :
+    ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Inserting-code-into-notebook.jpg)
 
     d.  Here is a similar code that will be inserted into your new cell: ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Replacing-the-object-storage-service-the-code-inserted.jpg)
 
@@ -247,11 +248,11 @@ by switching to the provisioned Object Storage service.
 
 2.  Open “ML Lab Installation” notebook in the list by clicking on the name of the notebook
 
-3.  Execute every code section in the order in which the sections appear by clicking on the button ![](media/image19.png) or by using the menu Cell&gt; Run Cells
+3.  Execute every code section in the order in which the sections appear by clicking on the button ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Execute-section.png) or by using the menu Cell&gt; Run Cells
 
 4.  Ensure that there are no installation failures before proceeding to the lab
 
-5.  Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks (click on the Notebooks:![](media/image20.jpeg))
+5.  Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks (click on the Notebooks:![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Going-back-to-list-of-notebooks.jpg))
 
 >NOTE: the software packages installation may take a few minutes, but it
 >needs to be done only once per account
