@@ -207,7 +207,7 @@ please start from the step 3):
 
 7.  Return back to DSX home page
 
-8.  Load the second notebook “Machine Learning with DSX: Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/labs/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-7 as above
+8.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/labs/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-7 as above
 
 ###Switch to the Provisioned Source Data Repository in DSX Lab Notebook
 
@@ -260,7 +260,7 @@ by switching to the provisioned Object Storage service.
 
 1.  From the DSX home page go to “See All” in “My Recent Notebooks” section
 
-2.  Open “Machine Learning with DSX: Lab” notebook in the list by clicking on the name of the notebook
+2.  Open “Machine Learning with DSX - Lab” notebook in the list by clicking on the name of the notebook
 
 3.  Execute every code section in the order in which the sections appear by clicking on the button ![](media/image19.png) or by using the menu Cell&gt; Run Cells. The lab covers the following actions:
 
