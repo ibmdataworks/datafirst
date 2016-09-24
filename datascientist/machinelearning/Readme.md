@@ -214,7 +214,7 @@ please start from the step 3):
 This step allows to avoid overloading the default Object Storage service
 by switching to the provisioned Object Storage service.
 
-1.  From the loaded notebook “Machine Learning with DSX Lab” click on Data Sources: ![](media/image13.jpeg)
+1.  From the loaded notebook “Machine Learning with DSX Lab” click on Data Sources: ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Selecting-Data-Sources.jpg)
 
 2.  The expanded Data Sources would show transact.csv under “Manage files” section
 
@@ -223,18 +223,18 @@ by switching to the provisioned Object Storage service.
     a.  Place your cursor to the cell with the default getObjectStorageFileWithCredentials implementation
     b.  Create an empty code cell just above the code cell with the default getObjectStorageFileWithCredentials by clicking on the following menu items: “Insert” &gt; “Insert Cell Above” and place your cursor into the new cell
 
-    ![](media/image14.jpeg)
+    ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Replacing-the-object-storage-service-inserting-cell.jpg)
 
-    c.  Clicking on “Insert to code” on Transactions.csv will show the options to insert the code: choose “insert base DataFrame” : ![](media/image15.jpeg)
+    c.  Clicking on “Insert to code” on Transactions.csv will show the options to insert the code: choose “insert base DataFrame” : ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Inserting-code-into-notebook.jpg)
 
-    d.  Here is a similar code that will be inserted into your new cell: ![](media/image16.jpeg)
+    d.  Here is a similar code that will be inserted into your new cell: ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Replacing-the-object-storage-service-the-code-inserted.jpg)
 
     e.  Replace the existing implementation of getObjectStorageFileWithCredentials (starts with “&lt;- function” and finishes with the end of block “}”) with the generated code in the new cell for getObjectStorageFileWithCredentials\_&lt;unique sequence&gt;; Here is the example of the highlighted code that needs to be replaced:
-     ![](media/image17.jpeg)
+     ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Replacing-the-object-storage-service-highlighted-code.jpg)
 
      Take the new code (highlighted with the green rectangle) and place instead of the old code (highlighted with the red rectangle):
 
-     ![](media/image18.jpeg)
+     ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Replacing-the-object-storage-service-code-replacement.jpg)
 
     f.  Remove the cell with the newly generated code after replacing the default implementation of getObjectStorageFileWithCredentials
 
