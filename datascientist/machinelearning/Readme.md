@@ -56,7 +56,7 @@
 
 1.  Download Lab-DSX-ML.zip archive from the github.com location below and extract the data file (transactions.csv) to your laptop:
 
-    > <https://github.com/ibmdataworks/datafirst/tree/master/datascientist/machinelearning>/archive
+    > <https://github.com/ibmdataworks/datafirst/tree/master/datascientist/machinelearning/archive>
     
     Here is the content of the downloaded archive:
     
