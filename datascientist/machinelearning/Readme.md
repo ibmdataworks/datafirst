@@ -132,13 +132,13 @@ Use the Object Storage Service that is created for your account. You can
 alternatively create a new Object Storage Service by following these
 instructions:
 
-1.  In DSX, go to user profile settings ![](media/image4.png)
+1.  In DSX, go to user profile settings ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/User-Profile-in-DSX.png)
 
-2.  Go to manage Bluemix account ![](media/image5.png)
+2.  Go to manage Bluemix account ![]![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Manage-bluemix-account.png)
 
 3.  From the Bluemix dashboard catalog menu search for “Object Storage”
 
-4.  Click on the Object Storage Icon ![](media/image1.png)
+4.  Click on the Object Storage Icon ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/ObjectStorage.png)
 
 5.  Choose the default pre-filled values in the fields (optionally rename the “Service name:” to DS\_DSX\_ML\_ObjectStorage), select the “Free Pricing Plan” and click “Create” at the bottom of the page.
 
@@ -160,17 +160,17 @@ alternatively create a new Apache Spark Service by following these
 instructions (if you are already in the UI managing Bluemix account,
 please start from the step 3):
 
-1.  In DSX, go to user profile settings ![](media/image4.png)
+1.  In DSX, go to user profile settings ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/User-Profile-in-DSX.png)
 
-2.  Go to manage Bluemix account ![](media/image5.png)
+2.  Go to manage Bluemix account ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Manage-bluemix-account.png)
 
 3.  From the Bluemix dashboard catalog menu search for “Apache Spark”
 
-4.  Click on the Apache Spark Service Icon ![](media/image6.png)
+4.  Click on the Apache Spark Service Icon ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/apache-spark-service.png)
 
 5.  Choose the default pre-filled values in the fields (optionally rename the “Service name:” to DS\_DSX\_ML\_Spark), select the needed  “Pricing Plan” and click “Create” at the bottom of the page.
 
-6.  Ensure that your service is up and running – the page that you are transferred after creating the service shows the status of the service (this is highlighted with the red rectangle) ![](media/image7.jpeg)
+6.  Ensure that your service is up and running – the page that you are transferred after creating the service shows the status of the service (this is highlighted with the red rectangle) ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Bluemix-verifying-that-the-service-is-running.jpg)
 
 7.  Connect your Apache Spark service to your Object Storage service:
 
