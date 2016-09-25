@@ -1,10 +1,8 @@
-[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/BA.png" width=200px>](https://github.com/ibmdataworks/datafirst/datascientist/)
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/BAE2E.png">](https://github.com/ibmdataworks/datafirst/datascientist/)
 
 As a Business Analyst, you need to analyze, discover and visiualize business data to derive insights. Perform hands-on exercises using guided exploration capabilities on customer transaction data to uncover unique insights about product affinities.
 
-*Watson Analytics SigMo Experience*
-
-**Setup your own account:**
+#Step 1. Get a free IBM Watson Analytics account...
 
 1.  Open a browser and go to “watsonanalytics.com”. This will redirect you to the URL: <https://watson.analytics.ibmcloud.com/product> and click on “TRY IT FOR FREE” button as shown below:
     <embed src="./media/image1.emf" width="378" height="257" />
