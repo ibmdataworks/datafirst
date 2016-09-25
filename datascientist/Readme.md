@@ -3,8 +3,7 @@
 
 As a Data Scientist, you have to turn raw data into meaning using state-of-the-art techniques leveraging open source and enterprise applications. Perform hands-on exercises leveraging Apache Spark, Jupyter, Python, and R to derive sales performance for a specific product line, then build an advanced Machine Learning model in R.
 
-##Welcome to the IBM Data Science Experience (DSX). 
-##datascience.ibm.com
+##Welcome to IBM Data Science Experience (DSX) - datascience.ibm.com
 
 IBM Data Science Experience (DSX) is the premier offering that seamlessly allows data scientists and data engineers to connect data from multiple domains, to analyze it, and visually to explore the data for insights. The solutions that were not possible previously or required months of development effort can now be done in DSX in a very fast and intuitive manner.
 
