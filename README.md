@@ -1,5 +1,5 @@
-#Hands on Exercises!
-#IBM DataFirst - The IBM Watson DataWorks Project!
+#IBM DataFirst - Hands on Exercises!
+#The IBM Watson DataWorks Project!
 ###Where teams can collaboratively work together...
 
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png">](https://github.com/ibmdataworks/datafirst/)
