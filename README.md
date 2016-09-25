@@ -7,7 +7,7 @@
 ![team](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png)
 
 
-|<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png">](https://github.com/ibmdataworks/datafirst/|tesrt|
+|[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png">](https://github.com/ibmdataworks/datafirst/|tesrt|
 
 
 [Business Analyst Click Here!](https://github.com/ibmdataworks/datafirst/raw/master/businessanalyst/ "Data Click Scientist Here!")
