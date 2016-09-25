@@ -4,6 +4,6 @@
 
 ![team](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png)
 
-(https://github.com/ibmdataworks/datafirst/raw/master/datascientist/ "Data Click Scientist Here!")
+[Text](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/ "Data Click Scientist Here!")
 
 Lab assets
