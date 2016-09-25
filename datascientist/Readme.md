@@ -24,7 +24,7 @@ From here you can create a new project, notebook, or connection. You can also ex
 
 #Step 2. Pick a Hands on Exercise...
 
-##[Interactive Analysis - Root Cause Analysis](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analysis/)
+##[Interactive Analytics - Root Cause Analysis](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/)
 
 ##[Machine Learning - Create Resolution](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/machinelearning/)
 
