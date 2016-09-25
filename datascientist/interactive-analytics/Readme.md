@@ -1,3 +1,8 @@
+#Data Scientist. Root Cause Analysis..
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/DSE2E1.png">](https://github.com/ibmdataworks/datafirst/tree/master/datascientist/interactive-analytics/)
+
+
+
 ## Hands-On-Lab: Data Scientist
 
 Analyze sales data in dashDB from IBM Data Science Experience using Spark based IPython Notebooks
