@@ -1,4 +1,4 @@
-<img=https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/BA.png width=200px>
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/BA.png" width=200px>](https://github.com/ibmdataworks/datafirst/datascientist/)
 
 As a Business Analyst, you need to analyze, discover and visiualize business data to derive insights.Perform hands-on exercises using guided exploration capabilities on customer transaction data to uncover unique insights about product affinities.
 
