@@ -2,18 +2,6 @@
 #Part 1 - Root Cause Analysis..
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/DSE2E1.png">](https://github.com/ibmdataworks/datafirst/tree/master/datascientist/interactive-analytics/)
 
-
-
-## Hands-On-Lab: Data Scientist
-
-Analyze sales data in dashDB from IBM Data Science Experience using Spark based IPython Notebooks
-
-### Introduction
-
-IBM Data Science Experience is an interactive, collaborative, cloud-based environment where data scientists can use multiple tools to drive analytics and derive insights. Data Scientists can use Python, R, or Scala in Jupyter Notebooks already connected to Spark or RStudio for open source R computing environment.
-
----
-
 This lab exercise uses an IPython Notebook in Data Science Experience to connect with dashDB, explores sales, product data and analyze sales performance for a specific product line. Pixiedust, a Python based visualization package is used to visualize the results.
 
 ![overview](https://github.com/gfilla/testing/raw/master/media/overview.gif)
