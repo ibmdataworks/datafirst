@@ -4,7 +4,7 @@
 
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png">](https://github.com/ibmdataworks/datafirst/)
 |Team Member|Description|
-|:...:|:...|
+|:---:|:---|
 |[Business Analyst Click Here!](https://github.com/ibmdataworks/datafirst/raw/master/businessanalyst/)|Description|
 |[Data Engineers Click Here!](https://github.com/ibmdataworks/datafirst/raw/master/dataengineer/)|Description|
 |[Data Scientist Click Here!](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/)|Description|
