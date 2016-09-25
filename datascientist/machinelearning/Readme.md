@@ -35,7 +35,7 @@
     ![Association Rules Lab Flow] (https://raw.githubusercontent.com/ibmdataworks/datafirst/master/datascientist/machinelearning/doc/media/Association-Rules-Lab-Flow.jpg "Association Rules Lab Flow")
 
 
-#Get on DSX and Download Files. 
+##Before you start. Get on DSX, Download Files. 
 
 1.  Download Lab-DSX-ML.zip archive from the github.com location below and extract the data file (transactions.csv) to your laptop:
 
