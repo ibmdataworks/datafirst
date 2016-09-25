@@ -1,6 +1,9 @@
-### Get Started with IBM Data Science Experience
+#Business Analyst...
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/DSE2E.png">](https://github.com/ibmdataworks/datafirst/datascientist/)
 
----
+As a Data Scientist, you have to turn raw data into meaning using state-of-the-art techniques leveraging open source and enterprise applications. Perform hands-on exercises leveraging Apache Spark, Jupyter, Python, and R to derive sales performance for a specific product line, then build an advanced Machine Learning model in R.
+
+#Step 1. Get IBM Data Science Experience for Free...
 
 Welcome to the IBM Data Science Experience (DSX). Here you can explore, analyze, visualize, and share your data. Before you start, you’ll need a Bluemix account.
 
@@ -18,4 +21,9 @@ You are now in the Data Science Experience. Depending on the plan you chose, you
 From here you can create a new project, notebook, or connection. You can also explore any of the tutorials, videos, sample notebooks or articles in the community.
 
 ![dsx start](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/dsxStart.png)
+
+#Step 2. Pick a Hands on Exercise...
+
+
+
 
