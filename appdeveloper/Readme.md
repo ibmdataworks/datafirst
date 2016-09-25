@@ -17,11 +17,6 @@ Lab Components: IBM Bluemix Cloud Offering Used
  <img src="./media/image1.png" width="487" height="175" />
 
 #Step 1. Get on BlueMix...
-================
-
-1.  Download Lab-NodejsDashboard.zip archive from the github.com location below and save to your laptop:
-
-2.  https://github.com/ibmdataworks/datafirst/tree/master/appdeveloper/nodejsDashboard.zip
 
 > NOTE: If you don’t have a Bluemix account then get started for free by registering using the following steps:
 
@@ -43,9 +38,13 @@ Lab Components: IBM Bluemix Cloud Offering Used
 
  > <img src="./media/image5.png" width="396" height="330" />
 
-***Start of Lab***
+#Step 2. Dowload Data
 
-Initialize Source Data Repository: Cloudant NoSQL DB Service
+1.  Download Lab-NodejsDashboard.zip archive from the github.com location below and save to your laptop:
+
+2.  https://github.com/ibmdataworks/datafirst/tree/master/appdeveloper/nodejsDashboard.zip
+
+Step 3. Initialize Source Data Repository: Cloudant NoSQL DB Service
 ============================================================
 
 1.  From the Bluemix dashboard catalog menu search for “Cloudant”
@@ -110,7 +109,7 @@ Initialize Source Data Repository: Cloudant NoSQL DB Service
 
 18.  You are now ready to move to the next service – SDK for Node.js Runtime. Return to the previous browser tab and click on the **catalog** button in the top navigation bar.
 
-Initialize Target Data Repository: SDK for Node.js Runtime Service
+Step 4. Initialize Target Data Repository: SDK for Node.js Runtime Service
 ==================================================================
 
 1.  From the Bluemix catalog menu search for “**foundry**”.
