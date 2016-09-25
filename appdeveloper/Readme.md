@@ -2,8 +2,6 @@
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/ADE2E.png">](https://github.com/ibmdataworks/datafirst/tree/master/appdeveloper)
 
 As an Application Developer, you need multiple application and data services that facilitate a modern architecture and delivery practices around mobile, microservices, DevOps and continuous delivery. Perform hands-on exercises to quickly build and deploy a live dashboard with Node.js connceted to a document data service.
-
-#Step 1. Get on BlueMix...
 >
 > Perform these hands-on exercises to build and deploy a live dashboard with Node.js and connect to document data store, IBM Cloudant based on CouchDB.
 
@@ -18,7 +16,7 @@ Lab Components: IBM Bluemix Cloud Offering Used
 
  <img src="./media/image1.png" width="487" height="175" />
 
-Before You Begin
+#Step 1. Get on BlueMix...
 ================
 
 1.  Download Lab-NodejsDashboard.zip archive from the github.com location below and save to your laptop:
