@@ -1,23 +1,6 @@
-#DSX: Machine Learning
-##Introduction
-
- With developing Big Data, the functionality to support the work of
- data scientists is one of the new areas on the market. IBM Data
- Science Experience (DSX) is the premier offering that seamlessly
- allows data scientists and data engineers to connect data from
- multiple domains, to analyze it, and visually to explore the data for
- insights. The solutions that were not possible previously or required
- months of development effort can now be done in DSX in a very fast and
- intuitive manner.
-
- R has become the de-facto standard in the domain of data science: it
- supports multiple machine learning algorithms and ability to visualize
- the outcomes of the research.
-
- DSX brings together the data science development experience
- accumulated in R, Python, Scala, and Java, intuitive data connectivity
- and processing capabilities of Spark, and the state-of-art dynamic
- visualization technology using Brunel, Pixiedust, and RStudio.
+#Data Scientist 
+#Part 2 - Create Resolution..
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/DSE2E2.png">](https://github.com/ibmdataworks/datafirst/tree/master/datascientist/machinelearning/)
 
  In this lab we will explore how a data scientist utilizes DSX and IBM
  Bluemix cloud services to easily analyze data using machine learning
@@ -52,7 +35,7 @@
     ![Association Rules Lab Flow] (https://raw.githubusercontent.com/ibmdataworks/datafirst/master/datascientist/machinelearning/doc/media/Association-Rules-Lab-Flow.jpg "Association Rules Lab Flow")
 
 
-##Before You Begin
+#Get on DSX and Download Files. 
 
 1.  Download Lab-DSX-ML.zip archive from the github.com location below and extract the data file (transactions.csv) to your laptop:
 
@@ -122,8 +105,7 @@
 > submenu list, and finally “Final Item” in the yet another opened menu
 > list.
 
-***Start of Lab: Decision Tree***
-
+#Step 1. Start of Lab 1: Decision Tree
 ##Decision Tree Lab Installation
 
 ###Initializing Source Data Repository: Object Storage Service
@@ -153,7 +135,7 @@ instructions:
 > NOTE: Your data files are now moved to the Object Storage into the
 > Bluemix.
 
-###Initializing Apache Spark: Apache Spark Service
+#Step 2. Initializing Apache Spark: Apache Spark Service
 
 Use the Apache Spark Service that is created for your account. You can
 alternatively create a new Apache Spark Service by following these
@@ -190,7 +172,7 @@ please start from the step 3):
 > setting up an Apache Spark service can be found at
 > <https://console.ng.bluemix.net/docs/services/AnalyticsforApacheSpark/index.html>
 
-###Importing Notebooks for Machine Learning Lab
+#Step 3. Importing Notebooks for Machine Learning Lab
 
 1.  From DSX, select DSX data science mode (the button to click on is highlighted with the red rectangle): ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
 
@@ -209,7 +191,7 @@ please start from the step 3):
 
 8.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/labs/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-7 as above
 
-###Switch to the Provisioned Source Data Repository in DSX Lab Notebook
+#Step 4. Switch to the Provisioned Source Data Repository in DSX Lab Notebook
 
 This step allows to avoid overloading the default Object Storage service
 by switching to the provisioned Object Storage service.
@@ -243,7 +225,7 @@ by switching to the provisioned Object Storage service.
     g.  Check point: after the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
 
 
-###Installing Software Libraries and Packages
+#Step 5. Installing Software Libraries and Packages
 
 1.  From the DSX home page go to “See All” in “My Recent Notebooks” section
 
@@ -258,7 +240,7 @@ by switching to the provisioned Object Storage service.
 >NOTE: the software packages installation may take a few minutes, but it
 >needs to be done only once per account
 
-##Running Decision Tree Lab 
+#Step 6. Running Decision Tree Lab 
 
 1.  From the DSX home page go to “See All” in “My Recent Notebooks” section
 
@@ -288,11 +270,11 @@ by switching to the provisioned Object Storage service.
 
 ***End of Lab: Decision Tree***
 
-***Start of Lab: Association Rules***
+#Step 1. Start of Lab 2: Association Rules***
 
 ##Association Rules Lab Installation
 
-###Starting RStudio
+#Step 2. Starting RStudio
 
 1.  Select DSX data science mode (please use the highlighted item to get to this menu):
 ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
@@ -302,7 +284,7 @@ by switching to the provisioned Object Storage service.
 3.  Select RStudio in the open tool bar: RStudio session starts
 ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-side-toolbar.jpg)
 
-###Importing Source Code and Data for Machine Learning Lab in RStudio
+#Step 3. Importing Source Code and Data for Machine Learning Lab in RStudio
 
 1.  In “Files” tab use “New folder” to create 2 folders in the user’s home directory - data and demo (please do not mix it with the “File” menu item in the main menu and locate “Files” in the frame depicted here):
 > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-Files-tab.jpg)
@@ -310,7 +292,7 @@ by switching to the provisioned Object Storage service.
 2.  Using “Upload” button upload transactions.csv into the data folder and RStudio-apriori-demo-installation.R, RStudio-apriori-demo.R into the demo folder
 
 
-###Installing Software Libraries and Packages
+#Step 4. Installing Software Libraries and Packages
 
 1.  Double-click on the name of the file RStudio-apriori-demo-installation.R: RStudio will open the source code:
 > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-Source-code.jpg)
@@ -324,7 +306,7 @@ by switching to the provisioned Object Storage service.
 >NOTE: the software packages installation may take a few minutes, but it
 >needs to be done only once per account
 
-##Running Association Rules Lab 
+#Step 5. Running Association Rules Lab 
 
 1.  Click on the name of the file RStudio-apriori-demo.R: RStudio will open the source code
 
