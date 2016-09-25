@@ -5,8 +5,7 @@ As an Application Developer, you need multiple application and data services tha
 >
 > Perform these hands-on exercises to build and deploy a live dashboard with Node.js and connect to document data store, IBM Cloudant based on CouchDB.
 
-Lab Components: IBM Bluemix Cloud Offering Used
-===============================================
+##Lab Components: IBM Bluemix Cloud Offering Used
 
 1.  **Source Data Repository**: **Cloudant NoSQL DB**
 
@@ -38,7 +37,7 @@ Lab Components: IBM Bluemix Cloud Offering Used
 
  > <img src="./media/image5.png" width="396" height="330" />
 
-#Step 2. Dowload Data
+#Step 2. Dowload Data Files
 
 1.  Download Lab-NodejsDashboard.zip archive from the github.com location below and save to your laptop:
 
