@@ -3,6 +3,7 @@
 ###Where teams can collaboratively work together...
 
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png">](https://github.com/ibmdataworks/datafirst/)
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/E2E.png">](https://github.com/ibmdataworks/datafirst/)
 
 ##[Business Analyst - Get Started Here!](https://github.com/ibmdataworks/datafirst/raw/master/businessanalyst/)
 As a Business Analyst, you need to analyze, discover and visiualize business data to derive insights.
