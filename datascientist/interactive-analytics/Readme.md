@@ -18,13 +18,7 @@ This lab exercise uses an IPython Notebook in Data Science Experience to connect
 ![overview](https://github.com/gfilla/testing/raw/master/media/overview.gif)
 
 
----
-
- Steps for the Lab
-
----
-
-### Provision dashDB
+#Step 1. Provision dashDB
 
 1.	Login to IBM Bluemix
 
@@ -45,7 +39,7 @@ This lab exercise uses an IPython Notebook in Data Science Experience to connect
 The dashDB service is provisioned along with sample database and lab exercise will use the sample database.
 
 ---
-### Provision Spark Service in Data Science Experience
+#Step 2. Provision Spark Service in Data Science Experience
 
 1.	Login to IBM Data Science Experience @ http://datascience.ibm.com/
 
@@ -62,7 +56,7 @@ The dashDB service is provisioned along with sample database and lab exercise wi
     d.	Click ‘Create Instance’ to create Spark Service.
 
 ---
-### Create Notebook in Data Science Experience
+#Step 3. Create Notebook in Data Science Experience and perform Analysis
 
 1. On next screen, click on ‘New Notebook’ to create a notebook.
 
