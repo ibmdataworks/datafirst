@@ -1,5 +1,9 @@
 #installing the packages for RStudio demo
 
+#handling dependencies
+library(magrittr)
+library(tibble)
+
 #To install graphNEL:
 source("http://bioconductor.org/biocLite.R")
 biocLite("graph")
