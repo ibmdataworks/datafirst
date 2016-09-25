@@ -1,10 +1,11 @@
-#IBM DataFirst - IBM Watson Project!
 #Hands on Exercises!
+#IBM DataFirst - The IBM Watson DataWorks Project!
 ###Where teams can collaboratively work together...
 
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png">](https://github.com/ibmdataworks/datafirst/)
+###One Team, One Platform...
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/E2E.png">](https://github.com/ibmdataworks/datafirst/)
-
+###Accelerating Analytics from weeks to minutes...
 ##[Business Analyst - Get Started Here!](https://github.com/ibmdataworks/datafirst/raw/master/businessanalyst/)
 As a Business Analyst, you need to analyze, discover and visiualize business data to derive insights.
 Perform hands-on exercises using guided exploration capabilities on customer transaction data to uncover unique insights about product affinities.
