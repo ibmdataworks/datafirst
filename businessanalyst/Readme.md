@@ -26,7 +26,8 @@ As a Business Analyst, you need to analyze, discover and visiualize business dat
 7.  You can now login to Watson Analytics by clicking on “Launch” button or directly go to Watson Analytics sign-on site from the homage watsonanalytics.com. After you login, you should see the page below and you are now ready to upload data for an amazing experience of guided self-service analytics!
     <embed src="./media/image7.emf" width="382" height="217" />
 
-> **Use an existing account:**
+#Step 2. Hands on Exercises...
+
 
 1.  Logon to Watson Analytics by going to page “watsonanalytics.com” on a browser and clicking on “LOG IN” blue button on the top right. You can use your own IBMid or one of the following IDs <cpoalys2@gmail.com>, <cpoalys3@gmail.com>, <cpoalys4@gmail.com>, or <cpoalys5@gmail.com> and the password is the same for all of them “ana!ytics” (type exclamation symbol instead of “l”).
     <embed src="./media/image8.emf" width="358" height="174" />
