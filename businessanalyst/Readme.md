@@ -1,3 +1,7 @@
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/BA.png">](https://github.com/ibmdataworks/datafirst/businessanalyst) ##Business Analyst
+As a Business Analyst, you need to analyze, discover and visiualize business data to derive insights.
+Perform hands-on exercises using guided exploration capabilities on customer transaction data to uncover unique insights about product affinities.
+
 *Watson Analytics SigMo Experience*
 
 **Setup your own account:**
