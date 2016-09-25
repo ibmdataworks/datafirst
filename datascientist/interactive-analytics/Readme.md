@@ -56,7 +56,7 @@ The dashDB service is provisioned along with sample database and lab exercise wi
     d.	Click ‘Create Instance’ to create Spark Service.
 
 ---
-#Step 3. Create Notebook in Data Science Experience and perform Analysis
+#Step 3. Load Notebook and Perform Analysis
 
 1. On next screen, click on ‘New Notebook’ to create a notebook.
 
