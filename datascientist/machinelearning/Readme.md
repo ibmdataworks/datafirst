@@ -105,8 +105,8 @@
 > submenu list, and finally “Final Item” in the yet another opened menu
 > list.
 
-#Step 1. Start of Lab 1: Decision Tree
-##Decision Tree Lab Installation
+##Decision Tree
+#Step 1. Decision Tree Lab Installation
 
 ###Initializing Source Data Repository: Object Storage Service
 
@@ -268,13 +268,11 @@ by switching to the provisioned Object Storage service.
 
 5.  Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks (click on the Notebooks:![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Going-back-to-list-of-notebooks.jpg))
 
-***End of Lab: Decision Tree***
+##End of Decision Tree
 
-#Step 1. Start of Lab 2: Association Rules***
+##Start Association Rules
 
-##Association Rules Lab Installation
-
-#Step 2. Starting RStudio
+#Step 7. Association Rules Lab Installation
 
 1.  Select DSX data science mode (please use the highlighted item to get to this menu):
 ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
@@ -284,7 +282,7 @@ by switching to the provisioned Object Storage service.
 3.  Select RStudio in the open tool bar: RStudio session starts
 ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-side-toolbar.jpg)
 
-#Step 3. Importing Source Code and Data for Machine Learning Lab in RStudio
+#Step 8. Importing Source Code and Data for Machine Learning Lab in RStudio
 
 1.  In “Files” tab use “New folder” to create 2 folders in the user’s home directory - data and demo (please do not mix it with the “File” menu item in the main menu and locate “Files” in the frame depicted here):
 > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-Files-tab.jpg)
@@ -292,7 +290,7 @@ by switching to the provisioned Object Storage service.
 2.  Using “Upload” button upload transactions.csv into the data folder and RStudio-apriori-demo-installation.R, RStudio-apriori-demo.R into the demo folder
 
 
-#Step 4. Installing Software Libraries and Packages
+#Step 9. Installing Software Libraries and Packages
 
 1.  Double-click on the name of the file RStudio-apriori-demo-installation.R: RStudio will open the source code:
 > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-Source-code.jpg)
@@ -306,7 +304,7 @@ by switching to the provisioned Object Storage service.
 >NOTE: the software packages installation may take a few minutes, but it
 >needs to be done only once per account
 
-#Step 5. Running Association Rules Lab 
+#Step 10. Running Association Rules Lab 
 
 1.  Click on the name of the file RStudio-apriori-demo.R: RStudio will open the source code
 
