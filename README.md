@@ -1,6 +1,6 @@
 #IBM DataFirst - Hands on Exercises!
-##IBM Watson Project..
-##Where teams can collaboratively work together...
+##IBM Watson Project...<br>
+Where teams can collaboratively work together...
 
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png">](https://github.com/ibmdataworks/datafirst/)
 
