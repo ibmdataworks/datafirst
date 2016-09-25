@@ -2,6 +2,8 @@
 ##Where teams can collaboratively work together.
 
 
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png">](https://github.com/ibmdataworks/datafirst/)
+
 ![team](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png)
 
 
