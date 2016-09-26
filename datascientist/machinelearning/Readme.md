@@ -326,11 +326,17 @@ by switching to the provisioned Object Storage service.
  > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Renaming-rprofile.png)
 
 3.  Quit the current session and start the new one:
+
     a. Select Session>Quit Session:
+    
  > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Session-menu.png)
+ 
     b. Select "Don't Save": 
+    
  > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Quitting-R-session.png)
+
     c. After the old session has been finished, start a new session:
+    
  > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Starting-a-new-R-session.png)
     
 4.  Run the code in RStudio-apriori-demo-installation.R using the Run button ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-running-source-code.png): please decline the options to update any packages while installing the new packages
