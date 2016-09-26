@@ -172,33 +172,59 @@ please start from the step 3):
 > setting up an Apache Spark service can be found at
 > <https://console.ng.bluemix.net/docs/services/AnalyticsforApacheSpark/index.html>
 
-#Step 3. Importing Notebooks for Machine Learning Lab
+#Step 3. Preparing a Project 
 
-1.  From DSX, select DSX data science mode (the button to click on is highlighted with the red rectangle): ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
+Please use a default project for this lab:
 
-2.  From the DSX home page in Data Science mode, click on “Start” to  create a new notebook: ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Start-or-use-a-notebook.jpg)
+1. From DSX, select DSX data science mode (the button to click on is highlighted with the red rectangle): ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
 
-3.  In the next screen named “Create Notebook”, switch to “From File” tab, name the notebook “ML Lab Installation”, and choose the notebook file on your disk from the archive: ml-lab-installation.ipynb; alternatively you can switch to “From  URL” tab and use the following “Notebook URL”:
+2. Click on the menu icon ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Left-bar-menu-button.png) on the home page of DSX in Data Science mode
+
+3. Select Projects > Default project in the open tool bar: the project management page for "Default project" will be shown
+![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Default-project-management.png)
+
+4. Select "add data assets" (it is highlighted with a red rectangle in the previous image). "Find and add data" menu will be open, where you need to select the "transactions.csv" from the provisioned Object Storage service and select "Apply":
+![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Adding-data-assets-to-default-project.png)
+
+5. The transactions file is now added to the assets of the default project:
+![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Transactions-as-data-assets-in-default-project.png)
+
+6. Click on "Settings" tab to add the provisioned Apache Spark service to the project:
+![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Project-settings-page.png)
+
+7. Click "Add" after selecting the Apache Spark service:
+![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Adding-Spark-service-to-project.png)
+
+8. The default project settings page will have the provisioned Spark service in "Spark service" section
+
+#Step 4. Importing Notebooks for Machine Learning Lab
+
+1.  From the default project page, the tab "Notebooks" (or "Overview") click "add notebook"
+
+2.  In the next screen named “Create Notebook”, switch to “From File” tab, name the notebook “ML Lab Installation”, and choose the notebook file on your disk from the archive: ml-lab-installation.ipynb; alternatively you can switch to “From  URL” tab and use the following “Notebook URL”:
 > https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/labs/ml-lab-installation.ipynb
 
-4.  Choose the default pre-filled values in the fields (Project: None, Spark Service: the service that you provisioned for this lab)
+ >NOTE: you can get to this page from the home page of DSX by clicking on "Start", please choose the default pre-filled values in the fields (Project: Default project, Spark Service: the service that you provisioned for this lab)
 
-5.  Choose to Trust this Notebook to run with your Privileges and click on Create Notebook
+3. Click on Create Notebook
 
-6.  When DSX loads the notebook, save the current state by clicking on File &gt; Save and Checkpoint from the menu
+4. When DSX loads the notebook, choose to Trust this Notebook to run with your Privileges in the menu "Notebook info"
+![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Notebook-info-privileges.png)
 
-7.  Return back to DSX home page
+4.  Save the current state by clicking on File &gt; Save and Checkpoint from the menu
 
-8.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/labs/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-7 as above
+5.  Return back to the project overview page (or DSX home page)
 
-#Step 4. Switch to the Provisioned Source Data Repository in DSX Lab Notebook
+6.  Load the second notebook “Machine Learning with DSX - Lab” (from the file machine-learning-with-DSX-lab.ipynb, or from URL https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/labs/machine-learning-with-DSX-lab.ipynb ) by following the same steps 1-5 as above
+
+#Step 5. Switch to the Provisioned Source Data Repository in DSX Lab Notebook
 
 This step allows to avoid overloading the default Object Storage service
 by switching to the provisioned Object Storage service.
 
-1.  From the loaded notebook “Machine Learning with DSX Lab” click on Data Sources: ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Selecting-Data-Sources.jpg)
+1.  From the loaded notebook “Machine Learning with DSX Lab” click on "Find and add data": ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Selecting-Data-Sources.jpg)
 
-2.  The expanded Data Sources would show transact.csv under “Manage files” section
+2.  The expanded "Find and add data" would show transact.csv under “Files” section
 
 3.  Identify the cell with the implementation of getObjectStorageFileWithCredentials and replace the code to use your provisioned Object Storage service:
 
@@ -225,24 +251,25 @@ by switching to the provisioned Object Storage service.
     g.  Check point: after the modifications, the section code should still define a data frame variable df which is used in the notebook; the modifications should be done only for replacing  getObjectStorageFileWithCredentials with the newly generated code for the new Object Storage service
 
 
-#Step 5. Installing Software Libraries and Packages
+#Step 6. Installing Software Libraries and Packages
 
-1.  From the DSX home page go to “See All” in “My Recent Notebooks” section
+1.  From the DSX home page go to “ML Lab Installation” in “My Recent Notebooks” section
 
-2.  Open “ML Lab Installation” notebook in the list by clicking on the name of the notebook
+2.  Open “ML Lab Installation” notebook by clicking on the name of the notebook
 
 3.  Execute every code section in the order in which the sections appear by clicking on the button ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Execute-section.png) or by using the menu Cell&gt; Run Cells
 
 4.  Ensure that there are no installation failures before proceeding to the lab
 
-5.  Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks (click on the Notebooks:![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Going-back-to-list-of-notebooks.jpg))
+5.  Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks in the default project by navigating to the side bar menu Projects > Default Project:
+![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-side-toolbar.jpg)
 
 >NOTE: the software packages installation may take a few minutes, but it
 >needs to be done only once per account
 
 #Step 6. Running Decision Tree Lab 
 
-1.  From the DSX home page go to “See All” in “My Recent Notebooks” section
+1.  From the DSX home page go to “Machine Learning with DSX - Lab” in “My Recent Notebooks” section
 
 2.  Open “Machine Learning with DSX - Lab” notebook in the list by clicking on the name of the notebook
 
@@ -266,7 +293,7 @@ by switching to the provisioned Object Storage service.
 
 4.  \[Optional step\] Clean-up the output of all sections to prepare the lab for the next user: click on Cell&gt;All Output&gt;Clear
 
-5.  Stop the kernel (File &gt; Stop Kernel) and go back to the list of notebooks (click on the Notebooks:![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Going-back-to-list-of-notebooks.jpg))
+5.  Stop the kernel (File &gt; Stop Kernel) and go back to the project overview page or DSX home page
 
 ##End of Decision Tree
 
