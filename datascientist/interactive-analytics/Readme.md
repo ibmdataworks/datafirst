@@ -36,7 +36,7 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 
   a.	Click on ‘Start a Notebook”
 
-    ![start notebook](https://github.com/gfilla/testing/raw/master/media/dsxIntro.gif)
+    ![start notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/dsxIntro.gif)
 
     b.	If this is your first Notebook, you will see a message that you need Spark service. Click on ‘Create a Spark Service here’ link in the message to provision Spark Service.
 
@@ -49,14 +49,14 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 
 1. On next screen, click on ‘New Notebook’ to create a notebook.
 
- ![new notebook](https://github.com/gfilla/testing/raw/master/media/newNotebook.gif)
-2. Type ‘IA_Lab_Notebook’ as Notebook name, click on ‘from URL’ link and specify:  https://github.com/ibmdataworks/sigmo-demos/tree/master/data-scientist/interactive-analytics/DSX_IA_Lab.ipynb
+ ![new notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/newNotebook.gif)
+2. Type ‘IA_Lab_Notebook’ as Notebook name, click on ‘from URL’ link and specify:  https://raw.githubusercontent.com/ibmdataworks/datafirst/master/datascientist/interactive-analytics/DSX_IA_Lab.ipynb
 
- ![start notebook](https://github.com/gfilla/testing/raw/master/media/createNotebook.gif)
+ ![start notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/createNotebook.gif)
 
   a.	 Select ‘Trust this Notebook to run with your Privileges’ and click on ‘Create Notebook’
   
- ![trust notebook](https://github.com/gfilla/testing/raw/master/media/sparkService.gif)
+ ![trust notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/sparkService.gif)
 1. Once notebook is created, add connection details to access data sources.
 
   a.	On top left menu, click Menu -> Connections -> Create Connection
@@ -75,28 +75,28 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 
   b. 	Click on ‘Data Sources’ and ‘Add Source’
 
-  ![Navigation for notebook](https://github.com/gfilla/testing/raw/master/media/dragDrop.gif)
+  ![Navigation for notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/dragDrop.gif)
 
   c.	Click on Connections, select the connection named ‘dashDB’
 
   d.	Click ‘Add Data Source’
 
-    ![add source](https://github.com/gfilla/testing/raw/master/media/addDataSource.gif)
+    ![add source](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/addDataSource.gif)
 1.	From the Notebook, connect to the sample sales database in dashDB
 
   a.	Place the cursor in the first cell. This should be empty, if not clear the contents.
 
   b.	Click on ‘Insert Code’  to insert credentials for the data source ‘dashDB’
 
-    ![insert to code](https://github.com/gfilla/testing/raw/master/media/addSource.gif)
+    ![insert to code](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/addSource.gif)
 
   c.	Rename the inserted array variable ‘credentials_1’  to ‘credentials’
 
-    ![credentials](https://github.com/gfilla/testing/raw/master/media/credentials.gif)
+    ![credentials](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/credentials.gif)
 
   d.	To execute code in any notebook cell, place cursor in cell and click the arrow icon in toolbar
 
-  ![execute in notebook](https://github.com/gfilla/testing/raw/master/media/notebookNav.gif)
+  ![execute in notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/notebookNav.gif)
 
   e.	Place cursor in cell1, execute code to capture dashDB database credentials
 
@@ -109,7 +109,7 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 
   c.	Place cursor in cell5 and execute code to  visualize SparkSQL Data frame
 
-  ![execute in notebook](https://github.com/gfilla/testing/raw/master/media/finalViz.gif)
+  ![execute in notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/finalViz.gif)
 
 7.	You can move the mouse over the visual to see data points on each bar. The chart shows a steady decline in sales for ‘Outdoor Protection’ product line.
 8.	Pixiedust is an open source visualization package developed by IBM labs. You can visualize SparkSQL data frames with a single API call and interactively access raw data, pick visual options and stow data away to files or IBM Cloudant or Object Storage.
