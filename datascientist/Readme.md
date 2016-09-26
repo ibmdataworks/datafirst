@@ -1,5 +1,5 @@
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/EventHeader.png">](https://github.com/ibmdataworks/datafirst/)
-#Hands on Labs - Data Scientist.
+#Hands on Lab - Data Scientist.
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/DSE2E.png">](https://github.com/ibmdataworks/datafirst/tree/master/datascientist)
 
 As a Data Scientist, you have to turn raw data into meaning using state-of-the-art techniques leveraging open source and enterprise applications. Perform hands-on exercises leveraging Apache Spark, Jupyter, Python, and R to derive sales performance for a specific product line, then build an advanced Machine Learning model in R.
