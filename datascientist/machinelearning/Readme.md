@@ -320,16 +320,30 @@ by switching to the provisioned Object Storage service.
 #Step 9. Installing Software Libraries and Packages
 
 1.  Double-click on the name of the file RStudio-apriori-demo-installation.R: RStudio will open the source code:
-> ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-Source-code.jpg)
+ > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-Source-code.jpg)
 
-2.  Run the code in RStudio-apriori-demo-installation.R using the Run button ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-running-source-code.png): please decline the options to update any packages while installing the new packages
+2.  Rename ~/.Rprofile to ~/old.Rprofile: check the file .Rprofile and click "Rename", change the name to old.Rprofile
+ > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Renaming-rprofile.png)
 
-3.  Check point: ensure that all packages install without errors
+3.  Quit the current session and start the new one:
+    a. Select Session>Quit Session:
+ > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Session-menu.png)
+    b. Select "Don't Save": 
+ > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Quitting-R-session.png)
+    c. After the old session has been finished, start a new session:
+ > ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Starting-a-new-R-session.png)
+    
+4.  Run the code in RStudio-apriori-demo-installation.R using the Run button ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/RStudio-running-source-code.png): please decline the options to update any packages while installing the new packages
 
-4.  Close the source code editor window for RStudio-apriori-demo-installation.R
+5.  Check point: ensure that all packages install without errors
 
->NOTE: the software packages installation may take a few minutes, but it
->needs to be done only once per account
+6.  Close the source code editor window for RStudio-apriori-demo-installation.R
+
+ >NOTE: the software packages installation may take a few minutes, but it  
+ >needs to be done only once per account
+7.  Rename ~/old.Rprofile back to ~/.Rprofile (see the supporting images in the item 2 above)
+
+8.   Quit the current session and start the new one (see the supporting images in the item 3 above)
 
 #Step 10. Running Association Rules Lab 
 
