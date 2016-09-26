@@ -1,4 +1,5 @@
-#Data Engineer...
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/EventHeader.png">](https://github.com/ibmdataworks/datafirst/)
+#Hands on Lab - Data Engineer.
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/DEE2E.png">](https://github.com/ibmdataworks/datafirst/tree/master/dataengineer)
 
 As a Data Engineer, you need to cleanse, organize, standardize, tranform and move data at scale.
