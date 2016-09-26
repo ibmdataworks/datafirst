@@ -11,22 +11,39 @@ R has become the de-facto standard in the domain of data science: it supports mu
 
 DSX brings together the data science development experience accumulated in R, Python, Scala, and Java, intuitive data connectivity and processing capabilities of Spark, and the state-of-art dynamic visualization technology using Brunel, Pixiedust, and RStudio.
 
-#Step 1. Get on IBM Data Science Experience (DSX)...
+#Step 1. Get on IBM Data Science Experience (DSX).
+##Create a BlueMix Account.
+A Bluemix ID is needed to log into DSX, If you have a Bluemix account, skip part to create bluemix ID.
 
-Before you start, you’ll need a Bluemix account. If you don’t have a Bluemix account, follow the steps to create one [here]( https://console.ng.bluemix.net/registration/). 
+1.  Go to [www.bluemix.net](https://www.bluemix.net)
 
-![bluemix signup](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/bluemixsignup1.png)
+2.  Click the signup button on the top right
 
-Once you fill out the form to sign up, check your email for an activation code. Once you have the activation code, you can complete the Bluemix sign up process. Now that you have a Bluemix account, you can login from the [DSX landing page]( http://datascience.ibm.com/).
+ > <img src="https://github.com/ibmdataworks/datafirst/blob/master/appdeveloper/media/image2.png" width="624" height="171" />
 
-If you have a Bluemix account, click the Log In button on the DSX landing page to sign in with your Bluemix credentials. Type in your Bluemix email address and password, then click Sign In.
+3.  On the next page fill in the corresponding fields and click “Create Account”
 
-![bluemix login](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/bluemixsignup2.png)
+ > <img src="https://github.com/ibmdataworks/datafirst/blob/master/appdeveloper/media/image3.png" width="624" height="300" />
 
-You are now in the Data Science Experience. Depending on the plan you chose, your environment is automatically set up with at least one Apache Spark instance and at least 5 GB of object storage.
-From here you can create a new project, notebook, or connection. You can also explore any of the tutorials, videos, sample notebooks or articles in the community.
+4.  You will see a page asking you to check your email for next steps. Check your email that you used to sign up for Bluemix
 
-![dsx start](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/dsxStart.png)
+ > <img src="https://github.com/ibmdataworks/datafirst/blob/master/appdeveloper/media/image4.png" width="237" height="219" />
+
+5.  Click on the “confirm your account” link
+
+ > <img src="https://github.com/ibmdataworks/datafirst/blob/master/appdeveloper/media/image5.png" width="396" height="330" />
+
+##Log into Data Science Experience (DSX).
+
+1. Goto [http://datascience.ibm.com/](http://datascience.ibm.com/)
+
+2. Click the Log In button on the DSX landing page to sign in with your Bluemix credentials. Type in your Bluemix email address and password, then click Sign In.
+
+ > <img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/DSX Sign On.png">
+
+ > You are now in the Data Science Experience. Depending on the plan you chose, your environment is automatically set up with at least one Apache Spark instance and at least 5 GB of object storage. From here you can create a new project, notebook, or connection. You can also explore any of the tutorials, videos, sample notebooks or articles in the community.
+
+ > <img src="https://github.com/ibmdataworks/datafirst/blob/master/datascientist/media/DSX%20Landing.png">
 
 #Step 2. Perform Hands on Exercises.
 
