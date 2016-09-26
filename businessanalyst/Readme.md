@@ -6,25 +6,25 @@ As a Business Analyst, you need to analyze, discover and visiualize business dat
 #Step 1. Get a free IBM Watson Analytics account...
 
 1.  Open a browser and go to “watsonanalytics.com”. This will redirect you to the URL: <https://watson.analytics.ibmcloud.com/product> and click on “TRY IT FOR FREE” button as shown below:
-   <embed src="./media/image1.emf" width="378" height="257" />
+    <embed src="./media/image1.emf" width="378" height="257" />
    
 2.  You have the option to click on “View pricing and buy” from the next screen. Watson Analytics provides 2 paid editions “Plus” and “Professional” with monthly license charges of $30 and $80, with included storage of 2GB and 100GB respectively. For now, let’s go with the “Free” license and click on “Try free edition”. To read more about the editions, please check out: <https://www.ibm.com/analytics/watson-analytics/us-en/solution/editions>
-   <embed src="./media/image2.emf" width="382" height="260" />
+    <embed src="./media/image2.emf" width="382" height="260" />
 
 3.  You will be taken to the “Purchase” page, from where click on “Try free edition”. This will set up a “Free” account that supports 1MB of storage for a single user for an indefinite period and a 30-day trial of the Professional single user account. The “Free” account only allows text files to be uploaded into Watson Analytics, whereas from Professional Account you can bring in a variety of data sources on the cloud and on-premise with up to 100GB of storage (additional storage can be purchased at $50 per month per 50GB).
-    <embed src="./media/image3.emf" width="382" height="217" />
+     <embed src="./media/image3.emf" width="382" height="217" />
 
 4.  You will now be prompted to setup an IBMid using the sign-up form as shown below. However, if you already have an IBMid, you can click on “Already have an IBMid” as highlighted below and sign-on with those credentials to request Watson Analytics account setup.
-   <embed src="./media/image4.emf" width="381" height="232" />
+    <embed src="./media/image4.emf" width="381" height="232" />
 
 5.  To activate your IBMid, you will be sent an email by ibmacct@us.ibm.com with a “Confirmation code” (7 digit number), that you can retrieve from your email box and type it on the sign-up page as shown below.
-   <embed src="./media/image5.emf" width="382" height="197" />
+    <embed src="./media/image5.emf" width="382" height="197" />
 
 6.  At this point, you will see a status screen saying “Your services are being setup” but within a few seconds your account will be setup and you’ll see a page as below confirming your 30-day trial subscription to “IBM Watson Analytics Professional Single User”!
-   <embed src="./media/image6.emf" width="597" height="323" />
+    <embed src="./media/image6.emf" width="597" height="323" />
 
 7.  You can now login to Watson Analytics by clicking on “Launch” button or directly go to Watson Analytics sign-on site from the homage watsonanalytics.com. After you login, you should see the page below and you are now ready to upload data for an amazing experience of guided self-service analytics!
-   <embed src="./media/image7.emf" width="382" height="217" />
+     <embed src="./media/image7.emf" width="382" height="217" />
 
 #Step 2. Hands on Exercises...
 
