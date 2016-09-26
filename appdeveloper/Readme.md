@@ -17,7 +17,7 @@ As an Application Developer, you need multiple application and data services tha
 
 #Step 1. Get on BlueMix...
 
-> NOTE: If you don’t have a Bluemix account then get started for free by registering using the following steps:
+> NOTE: If you already have a Bluemix account then skip this steps:
 
 1.  Go to [www.bluemix.net](http://www.bluemix.net)
 
