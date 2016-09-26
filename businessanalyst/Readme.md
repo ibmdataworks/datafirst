@@ -6,8 +6,7 @@ As a Business Analyst, you need to analyze, discover and visiualize business dat
 #Step 1. Get a free IBM Watson Analytics account...
 
 1.  Open a browser and go to “watsonanalytics.com”. This will redirect you to the URL: <https://watson.analytics.ibmcloud.com/product> and click on “TRY IT FOR FREE” button as shown below:
-
-<embed src="./media/image1.emf" width="378" height="257" />
+   <embed src="./media/image1.emf" width="378" height="257" />
 
 2.  You have the option to click on “View pricing and buy” from the next screen. Watson Analytics provides 2 paid editions “Plus” and “Professional” with monthly license charges of $30 and $80, with included storage of 2GB and 100GB respectively. For now, let’s go with the “Free” license and click on “Try free edition”. To read more about the editions, please check out: <https://www.ibm.com/analytics/watson-analytics/us-en/solution/editions>
 
