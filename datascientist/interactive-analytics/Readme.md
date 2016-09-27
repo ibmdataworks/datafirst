@@ -7,7 +7,7 @@ This lab exercise uses an IPython Notebook in Data Science Experience to connect
 ![overview](https://github.com/gfilla/testing/raw/master/media/overview.gif)
 
 Lab Video: https://youtu.be/sHm4IHHZq2w
-
+ > [<img src="https://github.com/ibmdataworks/datafirst/blob/master/datascientist/media/DS Video.png" width="382">](https://youtu.be/sHm4IHHZq2w "Data Science")
 
 #Step 1. Provision dashDB
 
