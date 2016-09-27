@@ -160,20 +160,20 @@ Step 4. Transform and Migrate Data: DataWorks Forge Service
 
 3.  Choose the default pre-filled values in the fields (optionally rename the “Service name:” to DE-DataIngest-DataWorks), select the “Starter Pricing Plan” (default) and click “Create” button on the side panel.
 
-> NOTE: Once the service is provisioned it will invoke the DataWorks Forge Service dashboard where you can explore additional resources like IBM DataWorks™ APIs, Learning Center, Discussion forums etc.
+ > NOTE: Once the service is provisioned it will invoke the DataWorks Forge Service dashboard where you can explore additional resources like IBM DataWorks™ APIs, Learning Center, Discussion forums etc.
 
-1.  To launch the DataWorks Forge service just created, click the arrow icon (<img src="./media/image8.png" width="61" height="63" />) in the IBM DataWorks™ section on the provisioning dashboard. This brings you to the DataWorks Forge dashboard which looks like this:
+4.  To launch the DataWorks Forge service just created, click the arrow icon (<img src="./media/image8.png" width="61" height="63" />) in the IBM DataWorks™ section on the provisioning dashboard. This brings you to the DataWorks Forge dashboard which looks like this:
 
-> <img src="./media/image9.png"/>
+ > <img src="./media/image9.png"/>
 
 DataWorks Forge Service Introduction
 ------------------------------------
 
-> <img src="./media/DE Image9.png"/>
->
-> NOTE: The Bluemix Secure gateway can be used to retrieve data hosted in a secure enterprise environment through a secure network tunnel. Configuring a Secure Gateway service and connecting using a secure tunnel is a simple and intuitive process (the dashboard walks you through the steps). As it was indicated earlier, getting access to a data hosted in an enterprise infrastructure can be a compliance and privacy issue for this lab, we will be using a sample datasets hosted in the IBM Object Storage that would be used as a source data set. This doesn’t need the use of a secure gateway.
->
-> The flow diagram for creating a data migration process in DataWorks Forge is as shown below:
+ > <img src="./media/DE Image9.png"/>
+ >
+ > NOTE: The Bluemix Secure gateway can be used to retrieve data hosted in a secure enterprise environment through a secure network tunnel. Configuring a Secure Gateway service and connecting using a secure tunnel is a simple and intuitive process (the dashboard walks you through the steps). As it was indicated earlier, getting access to a data hosted in an enterprise infrastructure can be a compliance and privacy issue for this lab, we will be using a sample datasets hosted in the IBM Object Storage that would be used as a source data set. This doesn’t need the use of a secure gateway.
+ >
+ > The flow diagram for creating a data migration process in DataWorks Forge is as shown below: 
 
 #Step 5. Create Data Connections
 
@@ -181,35 +181,35 @@ DataWorks Forge Service Introduction
 
 1.  From the DataWorks Forge dashboard click on “Tasks”-&gt;““Create Connection”
 
-> This will take you to the list of all available connection drivers.
+ > This will take you to the list of all available connection drivers.
 
-1.  Select the “Bluemix Object Storage” icon (<img src="./media/image11.png" width="82" height="77" />)
+2.  Select the “Bluemix Object Storage” icon (<img src="./media/image11.png" width="82" height="77" />)
 
-2.  Enter the following information in the data entry dashboard
+3.  Enter the following information in the data entry dashboard
 
-> Connection Name: SourceDB
->
-> Description: Data Stored in Bluemix Object Storage
+ > Connection Name: SourceDB
+ >
+ > Description: Data Stored in Bluemix Object Storage
 
-1.  Retrieve the values for the parameters "auth\_url", "projectId", "region", "userId", "password" from the Bluemix Object Storage service that was created earlier (section titled “Initialize Source Data Repository: Object Storage Service” step 8) and enter it in the dashboard.
+4.  Retrieve the values for the parameters "auth\_url", "projectId", "region", "userId", "password" from the Bluemix Object Storage service that was created earlier (section titled “Initialize Source Data Repository: Object Storage Service” step 8) and enter it in the dashboard.
 
-> You entry would look similar to the following:
->
-> Auth URL: https://identity.open.softlayer.com
->
-> Project ID: ab12c3456d7891ef2345a6789bc1d23e
->
-> Region: dallas
->
-> User ID: 123a4567890123456b789012cde34f56
->
-> Password: ANUP&3NaZiR4PD&r
+ > You entry would look similar to the following:
+ >
+ > Auth URL: https://identity.open.softlayer.com
+ >
+ > Project ID: ab12c3456d7891ef2345a6789bc1d23e
+ >
+ > Region: dallas
+ >
+ > User ID: 123a4567890123456b789012cde34f56
+ >
+ > Password: ANUP&3NaZiR4PD&r
 
-1.  Click on the “CREATE CONNECTION”
+5.  Click on the “CREATE CONNECTION”
 
-2.  You will be seeing the **SourceDB** icon in the Connections dashboard.
+6.  You will be seeing the **SourceDB** icon in the Connections dashboard.
 
-> <img src="./media/image12.png" width="105" height="72" />
+ > <img src="./media/image12.png" width="105" height="72" />
 
 ### Create Target Data Connection
 
