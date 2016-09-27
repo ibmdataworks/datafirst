@@ -215,31 +215,31 @@ DataWorks Forge Service Introduction
 
 1.  From the DataWorks Forge dashboard click on “Tasks”-&gt;“Create Connection”
 
-> This will take you to the list of all available connection drivers.
+ > This will take you to the list of all available connection drivers.
 
-1.  Select the “IBM dashDB” icon (<img src="./media/image13.png" width="86" height="84" />)
+2.  Select the “IBM dashDB” icon (<img src="./media/image13.png" width="86" height="84" />)
 
-2.  Enter the following information in the data entry dashboard
+3.  Enter the following information in the data entry dashboard
 
-> Connection Name: TargetDB
->
-> Description: Data Stored in IBM dashDB
+ > Connection Name: TargetDB
+ >
+ > Description: Data Stored in IBM dashDB
 
-1.  Retrieve the values for the parameters "host", "db", "username", "password" from the dashDB service that was created earlier (section titled “Initialize Target Data Repository: dashDB Service” step 4) and enter it in the dashboard.
+4.  Retrieve the values for the parameters "host", "db", "username", "password" from the dashDB service that was created earlier (section titled “Initialize Target Data Repository: dashDB Service” step 4) and enter it in the dashboard.
 
-> You entry would look similar to the following:
->
-> Hostname or IP Address: awh-yp-small99.services.dal.bluemix.net
->
-> Database: BLUDB
->
-> Username: dash999999
->
-> Password: ANupNAirAjxy1
+ > You entry would look similar to the following:
+ >
+ > Hostname or IP Address: awh-yp-small99.services.dal.bluemix.net
+ >
+ > Database: BLUDB
+ >
+ > Username: dash999999
+ >
+ > Password: ANupNAirAjxy1
 
-1.  Click on the “CREATE CONNECTION”
+5.  Click on the “CREATE CONNECTION”
 
-2.  You will be seeing the **TargetDB** icon in the Connections dashboard.
+6.  You will be seeing the **TargetDB** icon in the Connections dashboard.
 
 > <img src="./media/image14.png" width="121" height="96" />
 
@@ -254,27 +254,27 @@ Create Data Flow (Activity)
 
 4.  Click and select the files (checkbox) from the container: GOProductDim, GOSalesFact
 
-> At this point you have the options of either **copying/migrating the selected data files as-is** to the target OR **refine the data** from the selected files and then copy/migrate it.
+ > At this point you have the options of either **copying/migrating the selected data files as-is** to the target OR **refine the data** from the selected files and then copy/migrate it.
 
 ### Copy data as-is
 
-1.  Edit the activity name by clicking the pencil icon (<img src="./media/image15.png" width="33" height="36" />) on top of the dashboard. Name the activity “LoadDataAsIs”. Click <img src="./media/image16.png" width="34" height="34" /> when done with editing.
+5.  Edit the activity name by clicking the pencil icon (<img src="./media/image15.png" width="33" height="36" />) on top of the dashboard. Name the activity “LoadDataAsIs”. Click <img src="./media/image16.png" width="34" height="34" /> when done with editing.
 
-2.  Click on “COPY TO TARGET”
+6.  Click on “COPY TO TARGET”
 
-3.  Click and select the target database: TargetDB
+7.  Click and select the target database: TargetDB
 
-4.  Select the database schema to which the data needs to be copied to.
+8.  Select the database schema to which the data needs to be copied to.
 
-> NOTE: Since we are using an entry plan dashDB for this lab exercise the schema name would look similar to the dashDB userid (e.g., DASH99999)
+ > NOTE: Since we are using an entry plan dashDB for this lab exercise the schema name would look similar to the dashDB userid (e.g., DASH99999)
 
-1.  In the “Table Action” column you are prompted with 4 options “Append to the table”, “Recreate the table”, “Replace the table contents” and “Merge with the table”. Since this is the first time we are copying data, select “Recreate the table”
+9.  In the “Table Action” column you are prompted with 4 options “Append to the table”, “Recreate the table”, “Replace the table contents” and “Merge with the table”. Since this is the first time we are copying data, select “Recreate the table”
 
-> NOTE: If the table does not exist, it will be created and data will be appended.
+ > NOTE: If the table does not exist, it will be created and data will be appended.
 
-1.  Now you can either “SCHEDULE” this activity for a later run or “RUN” this activity immediately. Click on “RUN” to execute it immediately
+10.  Now you can either “SCHEDULE” this activity for a later run or “RUN” this activity immediately. Click on “RUN” to execute it immediately
 
-2.  The activity is executed immediately. An icon is added to the activity list dashboard. We will revisit this icon in the later section.
+11.  The activity is executed immediately. An icon is added to the activity list dashboard. We will revisit this icon in the later section.
 
 > <img src="./media/image17.png" width="193" height="71" />
 >
@@ -292,15 +292,15 @@ Create Data Flow (Activity)
 
 4.  This brings you to the refine dashboard where you can do various operations on the selected table.
 
-> For the tables, it provides you a histogram and statistics of the data quality for each of the table columns. You can cleanse the data (standardize values, remove rows/columns, change value, filter and sort rows etc.)
->
-> You are at liberty to explore and act on these options. Once complete click on “NEXT”
+ > For the tables, it provides you a histogram and statistics of the data quality for each of the table columns. You can cleanse the data (standardize values, remove rows/columns, change value, filter and sort rows etc.)
+ >
+ > You are at liberty to explore and act on these options. Once complete click on “NEXT”
 
-1.  Continue steps 7 to 10. **Come back to this step once complete**.
+5.  Continue steps 7 to 10. **Come back to this step once complete**.
 
-2.  The activity is executed immediately and an icon is added to the activity list dashboard.
+6.  The activity is executed immediately and an icon is added to the activity list dashboard.
 
-> <img src="./media/image18.png" width="235" height="87" />
+ > <img src="./media/image18.png" width="235" height="87" />
 
 Validate Data Flow Run Activity
 -------------------------------
@@ -309,28 +309,28 @@ Validate Data Flow Run Activity
 
 2.  Click on the three dots (<img src="./media/image19.png" width="17" height="37" />) on the right-top corner for the activity titled “LoadDataAsIs”. This will pop up additional sub-activity icons
 
-> <img src="./media/image20.png" width="267" height="157" />
->
-> You can Run (<img src="./media/image21.png" width="43" height="42" />), Schedule (<img src="./media/image22.png" width="45" height="45" />), delete (<img src="./media/image23.png" width="42" height="42" />) the activity OR find more details (<img src="./media/image24.png" width="41" height="42" />) about the run.
+ > <img src="./media/image20.png" width="267" height="157" />
+ > 
+ > You can Run (<img src="./media/image21.png" width="43" height="42" />), Schedule (<img src="./media/image22.png" width="45" height="45" />), delete (<img src="./media/image23.png" width="42" height="42" />) the activity OR find more details (<img src="./media/image24.png" width="41" height="42" />) about the run.
 
-1.  Let find out about the detailed status of the run. Either click on the activity name icon “LoadDataAsIs“ or click on the expanded details (<img src="./media/image24.png" width="41" height="42" />) icon.
+3.  Let find out about the detailed status of the run. Either click on the activity name icon “LoadDataAsIs“ or click on the expanded details (<img src="./media/image24.png" width="41" height="42" />) icon.
 
-> <img src="./media/image25.png" width="559" height="349" /><img src="./media/image26.png" width="559" height="379" />
->
-> It will show you an information screen (similar to the figure above). Here, check if the activity details match with the information it was created with and whether the activity was run successfully. You can also rerun or schedule a run of the activity without having to recreate it again. You can see the detailed **runlog** of the activity by clicking on the named “Activity Runs” (circled in the earlier figure).
+ > <img src="./media/image25.png" width="559" height="349" /><img src="./media/image26.png" width="559" height="379" />
+ >
+ > It will show you an information screen (similar to the figure above). Here, check if the activity details match with the information it was created with and whether the activity was run successfully. You can also rerun or schedule a run of the activity without having to recreate it again. You can see the detailed **runlog** of the activity by clicking on the named “Activity Runs” (circled in the earlier figure).
 
 Validate Migrated Data
 ----------------------
 
 1.  Go to the main Bluemix portal and click on DASHBOARD (Top of the browser)
 
-> NOTE: You may already have a browser tab open from where you invoked the DataWorks Forge service (<img src="./media/image27.png" width="278" height="42" />). Go to that tab and click on <img src="./media/image28.png" width="121" height="28" />. This will take you back to the provisioned services dashboard.
+ > NOTE: You may already have a browser tab open from where you invoked the DataWorks Forge service (<img src="./media/image27.png" width="278" height="42" />). Go to that tab and click on <img src="./media/image28.png" width="121" height="28" />. This will take you back to the provisioned services dashboard.
 
-1.  Under the Services section on this browser page click on the dashDB service that was created in section titled “Initialize Target Data Repository: dashDB Service “.
+2.  Under the Services section on this browser page click on the dashDB service that was created in section titled “Initialize Target Data Repository: dashDB Service “.
 
-2.  This will open up the dashDB launch board. Click on the “OPEN” button. This will launch the dashDB dashboard.
+3.  This will open up the dashDB launch board. Click on the “OPEN” button. This will launch the dashDB dashboard.
 
-3.  To verify the data you have 2 Options
+4.  To verify the data you have 2 Options
 
 > **Option 1**
 
@@ -353,17 +353,17 @@ Delete All Provisioned Services (Optional)
 
 1.  Go to the main Bluemix portal and click on DASHBOARD (Top of the browser)
 
-> NOTE: You may already have a browser tab open from where you invoked the dashDB service (<img src="./media/image27.png" width="278" height="42" />). Go to that tab and click on <img src="./media/image28.png" width="121" height="28" />. This will take you back to the provisioned services dashboard.
+ > NOTE: You may already have a browser tab open from where you invoked the dashDB service (<img src="./media/image27.png" width="278" height="42" />). Go to that tab and click on <img src="./media/image28.png" width="121" height="28" />. This will take you back to the provisioned services dashboard.
 
-1.  Under the Services section you will see the three services you had created (Object Storage, DataWorks Forge and dashDB)
+2.  Under the Services section you will see the three services you had created (Object Storage, DataWorks Forge and dashDB)
 
-2.  To delete the service click on the three dots (<img src="./media/image19.png" width="17" height="37" />) under the actions column and click “Delete Service”. This will pop up a confirmation dialog box that says:
+3.  To delete the service click on the three dots (<img src="./media/image19.png" width="17" height="37" />) under the actions column and click “Delete Service”. This will pop up a confirmation dialog box that says:
 
-> *Deleting the service will remove it from all apps that are using it. In addition, all of its data will be permanently deleted. Are you sure you want to delete the &lt;service name&gt; service?*
+ > *Deleting the service will remove it from all apps that are using it. In addition, all of its data will be permanently deleted. Are you sure you want to delete the &lt;service name&gt; service?*
 
-1.  Click “Delete” to remove the service.
+4.  Click “Delete” to remove the service.
 
-2.  Repeat steps 3 and 4 above until all services are deleted.
+5.  Repeat steps 3 and 4 above until all services are deleted.
 
 ***End of Lab***
 
