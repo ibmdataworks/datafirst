@@ -32,7 +32,7 @@ Before You Begin
 
 1.  Download Lab-DataWorksForge.zip archive from the github.com location below and extract the two data files (GOProductDim, GOSalesFact) to your laptop:
 
-> https://github.com/ibmdataworks/datafirst/tree/master/dataengineer
+ > https://github.com/ibmdataworks/datafirst/tree/master/dataengineer
 
 2.  Log in to your IBM Cloud Bluemix account <https://console.ng.bluemix.net/login?state=/home/onboard/>
 
