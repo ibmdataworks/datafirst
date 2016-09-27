@@ -5,8 +5,8 @@
 As a Data Engineer, you need to cleanse, organize, standardize, tranform and move data at scale.
 Perform hands-on exercises and in a few clicks you can standardize, transform, and move sales and customer data into a relational data warehouse.
 
-##Video of Lab Steps: 
-[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/BAE2E.png">](https://github.com/ibmdataworks/datafirst/tree/master/businessanalyst/)
+##Video of Lab Steps: https://youtu.be/655-6SPhkNI
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datasscience/media/DE Video.png">](https://youtu.be/655-6SPhkNI)
 
 
 Move and Prepare Data with Ease Using IBM Bluemix Data Connect (formerly DataWorks Forge)
