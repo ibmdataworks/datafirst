@@ -82,15 +82,9 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 
 ![edit notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/editnotebook.png)
 
-  b. 	Click on ‘Data Sources’ and ‘Add Source’
+  b. 	Click on the '1010' icon to add a data source and click Connections to insert your DashDB connection
 
-  ![Navigation for notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/dragDrop.gif)
-
-  c.	Click on Connections, select the connection named ‘dashDB’
-
-  d.	Click on edit (pencil icon) notebook then click on the icon shown below to add the data source.
-
-
+  ![add connection in notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/addconnectionNotebook.gif)
 
 
 1.	From the Notebook, connect to the sample sales database in dashDB
