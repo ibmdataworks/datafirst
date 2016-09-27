@@ -211,7 +211,7 @@ Please use a default project for this lab:
 4. When DSX loads the notebook, choose to Trust this Notebook to run with your Privileges in the menu "Notebook info"
 ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Notebook-info-privileges.png)
 
-4.  Save the current state by clicking on File &gt; Save and Checkpoint from the menu
+4.  Save the current state by clicking on File &gt; Save Version from the menu
 
 5.  Return back to the project overview page (or DSX home page)
 
