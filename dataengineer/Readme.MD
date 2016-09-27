@@ -5,21 +5,14 @@
 As a Data Engineer, you need to cleanse, organize, standardize, tranform and move data at scale.
 Perform hands-on exercises and in a few clicks you can standardize, transform, and move sales and customer data into a relational data warehouse.
 
-##Video of Lab Steps: https://youtu.be/655-6SPhkNI
-[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datasscience/media/DE Video.png">](https://youtu.be/655-6SPhkNI)
-
-
-Move and Prepare Data with Ease Using IBM Bluemix Data Connect (formerly DataWorks Forge)
-=========================================================================================
-
-Introduction
-============
-
-> Setting up an enterprise level data movement infrastructure and then ingesting that data from a secure environment to a cloud repository can be challenging. As a Data Engineer, you need a simple point and click solution to move, discover, cleanse, standardize and transform data to support analytic applications. IBM Cloud Solutions with its DataWorks Forge as-a-Service solves this challenge by seamlessly connecting, transforming and ingesting the data into the secure IBM Cloud.
+Setting up an enterprise level data movement infrastructure and then ingesting that data from a secure environment to a cloud repository can be challenging. As a Data Engineer, you need a simple point and click solution to move, discover, cleanse, standardize and transform data to support analytic applications. IBM Cloud Solutions with its DataWorks Forge as-a-Service solves this challenge by seamlessly connecting, transforming and ingesting the data into the secure IBM Cloud.
 >
 > The extremely intuitive and efficient DataWorks Forge service, with its wide collection of data stores connections, prepares and ingests the data to the IBM cloud with ease and robustness.
 >
 > In this lab we will explore how a data engineer utilizes DataWorks Forge and other IBM Bluemix cloud services to easily host, connect, ingest and persist enterprise data on to the cloud.
+
+Video of Lab Steps: https://youtu.be/655-6SPhkNI
+[<img src="https://github.com/ibmdataworks/datafirst/raw/master/datasscience/media/DE Video.png">](https://youtu.be/655-6SPhkNI)
 
 Lab Components: IBM Bluemix Cloud Offering Used
 ===============================================
@@ -69,7 +62,7 @@ Before You Begin
 
  > <img src="https://github.com/ibmdataworks/datafirst/blob/master/appdeveloper/media/image5.png" width="396" height="330" />
 
-***Start of Lab***
+#Step 2. 
 
 Initialize Source Data Repository: Object Storage Service
 =========================================================
