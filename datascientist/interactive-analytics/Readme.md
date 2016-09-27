@@ -51,7 +51,7 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 
 1. At the top of the screen click the plus-sign icon to create a notebook.
 
- ![new notebook]()
+ ![new notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/createnew.png)
  
 2. Type ‘IA_Lab_Notebook’ as Notebook name, click on ‘from URL’ link and specify:  https://raw.githubusercontent.com/ibmdataworks/datafirst/master/datascientist/interactive-analytics/DSX_IA_Lab.ipynb
 
@@ -62,23 +62,23 @@ The dashDB service is provisioned along with sample database and lab exercise wi
  ![trust notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/sparkService.gif)
 1. Once notebook is created, add dashDB as a data asset for the project
 
-![add data asset]()
+![add data asset](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/adddataassets.png)
 
-  a.	
+  a.	Now click on Connection -> Create Connection
   
-  b. On top left menu, click Menu -> Connections -> Create Connection
+![add data connection](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/newaddconnection.png)
 
-  c.	Key in ‘dashDB’ as connection name
+  b.	Key in ‘dashDB’ as connection name
 
-  d.	From drop down list of ‘Target Service Instance’ select ‘DS_Sales_DataStore’, the dashDb service you provisioned in Bluemix.
+  c.	From drop down list of ‘Target Service Instance’ select ‘DS_Sales_DataStore’, the dashDb service you provisioned in Bluemix.
 
-  e.	Select ‘Database’ as ‘BLUDB’.
+  d.	Select ‘Database’ as ‘BLUDB’.
 
-  f.	Click ‘Create’.
+  e.	Click ‘Create’.
 
 1.	Go back to your default project (using the menu on the top left) to open your Notebook and add the data source
 
-  a.	Navigate to home with a click on ‘IBM Data Science Experience’ (top left) and open ‘IA Lab Notebook’
+  a.	Open your notebook in the project in 'Edit' mode using the pencil icon
 
   b. 	Click on ‘Data Sources’ and ‘Add Source’
 
