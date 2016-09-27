@@ -6,10 +6,10 @@ As a Data Engineer, you need to cleanse, organize, standardize, tranform and mov
 Perform hands-on exercises and in a few clicks you can standardize, transform, and move sales and customer data into a relational data warehouse.
 
 Setting up an enterprise level data movement infrastructure and then ingesting that data from a secure environment to a cloud repository can be challenging. As a Data Engineer, you need a simple point and click solution to move, discover, cleanse, standardize and transform data to support analytic applications. IBM Cloud Solutions with its DataWorks Forge as-a-Service solves this challenge by seamlessly connecting, transforming and ingesting the data into the secure IBM Cloud.
->
-> The extremely intuitive and efficient DataWorks Forge service, with its wide collection of data stores connections, prepares and ingests the data to the IBM cloud with ease and robustness.
->
-> In this lab we will explore how a data engineer utilizes DataWorks Forge and other IBM Bluemix cloud services to easily host, connect, ingest and persist enterprise data on to the cloud.
+ >
+ > The extremely intuitive and efficient DataWorks Forge service, with its wide collection of data stores connections, prepares and ingests the data to the IBM cloud with ease and robustness.
+ >
+ > In this lab we will explore how a data engineer utilizes DataWorks Forge and other IBM Bluemix cloud services to easily host, connect, ingest and persist enterprise data on to the cloud.
 
 Video of Lab Steps: https://youtu.be/655-6SPhkNI
 [<img src="https://github.com/ibmdataworks/datafirst/blob/master/datascientist/media/DE%20Video.png">](https://youtu.be/655-6SPhkNI)
@@ -19,7 +19,7 @@ Lab Components: IBM Bluemix Data Connect (formerly DataWorks)
 
 1.  **Source Data Repository**: **Object Storage Service**
 
-> NOTE: This usually is the data hosted in a secure enterprise environment that could be securely retrieved through a network tunnel using the BlueMix Secure gateway. Since getting access to a data hosted in an enterprise infrastructure can be a compliance and privacy issue for this lab, we will be using sample datasets hosted in the IBM Object Storage that would be used as a source data set.
+ > NOTE: This usually is the data hosted in a secure enterprise environment that could be securely retrieved through a network tunnel using the BlueMix Secure gateway. Since getting access to a data hosted in an enterprise infrastructure can be a compliance and privacy issue for this lab, we will be using sample datasets hosted in the IBM Object Storage that would be used as a source data set.
 
 2.  **Target Data Repository**: **dashDB Service**
 
@@ -34,7 +34,7 @@ Before You Begin
 
 > https://github.com/ibmdataworks/datafirst/tree/master/dataengineer
 
-1.  Log in to your IBM Cloud Bluemix account <https://console.ng.bluemix.net/login?state=/home/onboard/>
+2.  Log in to your IBM Cloud Bluemix account <https://console.ng.bluemix.net/login?state=/home/onboard/>
 
 > NOTE: If you don’t have a Bluemix account then get started for free by registering using the URL [http://www.ibm.com/cloud-computing/bluemix/](http://www.ibm.com/cloud-computing/bluemix/%20) or <https://console.ng.bluemix.net/registration/>
 
