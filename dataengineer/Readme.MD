@@ -1,5 +1,5 @@
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/EventHeader.png">](https://github.com/ibmdataworks/datafirst/)
-#Hands on Lab - Data Engineer.
+#Hands on Lab - Data Engineer - IBM Bluemix Data Connect
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/DEE2E.png">](https://github.com/ibmdataworks/datafirst/tree/master/dataengineer)
 
 As a Data Engineer, you need to cleanse, organize, standardize, tranform and move data at scale.
@@ -14,16 +14,16 @@ Setting up an enterprise level data movement infrastructure and then ingesting t
 Video of Lab Steps: https://youtu.be/655-6SPhkNI
 [<img src="https://github.com/ibmdataworks/datafirst/blob/master/datascientist/media/DE%20Video.png">](https://youtu.be/655-6SPhkNI)
 
-Lab Components: IBM Bluemix Cloud Offering Used
+Lab Components: IBM Bluemix Data Connect (formerly DataWorks)
 ===============================================
 
 1.  **Source Data Repository**: **Object Storage Service**
 
 > NOTE: This usually is the data hosted in a secure enterprise environment that could be securely retrieved through a network tunnel using the BlueMix Secure gateway. Since getting access to a data hosted in an enterprise infrastructure can be a compliance and privacy issue for this lab, we will be using sample datasets hosted in the IBM Object Storage that would be used as a source data set.
 
-1.  **Transform and Migrate**: **DataWorks Forge Service**
-
 2.  **Target Data Repository**: **dashDB Service**
+
+3.  **Transform and Migrate**: **DataWorks Service**
 
 <img src="./media/image1.png" width="69" height="68" />
 
@@ -87,7 +87,18 @@ Step 2. Initialize Source Data Repository: Object Storage Service
 
 > It will show the credential details similar to the following:
 >
-> { "auth\_url": "https://identity.open.softlayer.com", "project": "object\_storage\_abcd12e3\_4f56\_7a89\_1bc2\_3de45fa67bcd", "projectId": "ab12c3456d7891ef2345a6789bc1d23e", "region": "dallas", "userId": "123a4567890123456b789012cde34f56", "username": "admin\_123a4567890123455a67ce456b789012cde34f56", "password": "ANUP&3NaZiR4PD&r=", "domainId": "cc421938a87348739a6bdc374424273d", "domainName": "1531219", "role": "admin" }
+> { 
+> "auth\_url": "https://identity.open.softlayer.com", 
+> "project": "object\_storage\_abcd12e3\_4f56\_7a89\_1bc2\_3de45fa67bcd", 
+> "projectId": "ab12c3456d7891ef2345a6789bc1d23e", 
+> "region": "dallas", 
+> "userId": "123a4567890123456b789012cde34f56", 
+> "username": "admin\_123a4567890123455a67ce456b789012cde34f56", 
+> "password": "ANUP&3NaZiR4PD&r=", 
+> "domainId": "cc421938a87348739a6bdc374424273d", 
+> "domainName": "1531219", 
+> "role": "admin" 
+> }
 
 1.  Copy the credentials by clicking on the blue square (<img src="./media/image4.png" width="30" height="36" />) on the top right corner of the window and paste it into a notepad (Windows) / textedit (Mac) / vi (Linux). This information will be needed later for use in DataWorks Forge to create and establish the connection to the object store.
 
@@ -111,33 +122,19 @@ Step 3. Initialize Target Data Repository: dashDB Service
 > It will show the credential details similar to the following:
 >
 > {
->
 > "credentials": {
->
 > "port": 50000,
->
 > "db": "BLUDB",
->
 > "username": "dash999999",
->
 > "ssljdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;",
->
 > "host": "awh-yp-small99.services.dal.bluemix.net",
->
 > "https\_url": "https://awh-yp-small99.services.dal.bluemix.net:8443",
->
 > "dsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;",
->
 > "hostname": "awh-yp-small99.services.dal.bluemix.net",
->
 > "jdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50000/BLUDB",
->
 > "ssldsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;Security=SSL;",
->
 > "uri": "db2://dash999999:ANupNAirAjxy1@awh-yp-small99.services.dal.bluemix.net:50000/BLUDB",
->
 > "password": "ANupNAirAjxy1"
->
 > }
 
 1.  Copy the credentials by clicking on the blue square (<img src="./media/image4.png" width="30" height="36" />) on the top right corner of the window and paste it into a notepad (Windows) / textedit (Mac) / vi (Linux). This information will be needed later for use in DataWorks Forge to create and establish the connection to dashDB.
@@ -167,7 +164,7 @@ Step 4. Transform and Migrate Data: DataWorks Forge Service
 
 1.  To launch the DataWorks Forge service just created, click the arrow icon (<img src="./media/image8.png" width="61" height="63" />) in the IBM DataWorks™ section on the provisioning dashboard. This brings you to the DataWorks Forge dashboard which looks like this:
 
-> <img src="./media/image9.png" width="559" height="309" />
+> <img src="./media/image9.png"/>
 
 DataWorks Forge Service Introduction
 ------------------------------------
