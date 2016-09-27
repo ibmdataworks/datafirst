@@ -169,7 +169,7 @@ Step 4. Transform and Migrate Data: DataWorks Forge Service
 DataWorks Forge Service Introduction
 ------------------------------------
 
-> <img src="./media/DE Image9.png" width="282" height="786" />
+> <img src="./media/DE Image9.png"/>
 >
 > NOTE: The Bluemix Secure gateway can be used to retrieve data hosted in a secure enterprise environment through a secure network tunnel. Configuring a Secure Gateway service and connecting using a secure tunnel is a simple and intuitive process (the dashboard walks you through the steps). As it was indicated earlier, getting access to a data hosted in an enterprise infrastructure can be a compliance and privacy issue for this lab, we will be using a sample datasets hosted in the IBM Object Storage that would be used as a source data set. This doesn’t need the use of a secure gateway.
 >
