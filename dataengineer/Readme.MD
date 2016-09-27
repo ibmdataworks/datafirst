@@ -121,20 +121,20 @@ Step 3. Initialize Target Data Repository: dashDB Service
 
  > It will show the credential details similar to the following:
  >
- > {
- > "credentials": {
- > "port": 50000,
- > "db": "BLUDB",
- > "username": "dash999999",
- > "ssljdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;",
- > "host": "awh-yp-small99.services.dal.bluemix.net",
- > "https\_url": "https://awh-yp-small99.services.dal.bluemix.net:8443",
- > "dsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;",
- > "hostname": "awh-yp-small99.services.dal.bluemix.net",
- > "jdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50000/BLUDB",
- > "ssldsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;Security=SSL;",
- > "uri": "db2://dash999999:ANupNAirAjxy1@awh-yp-small99.services.dal.bluemix.net:50000/BLUDB",
- > "password": "ANupNAirAjxy1"
+ > { <br />
+ > "credentials": { <br />
+ > "port": 50000, <br />
+ > "db": "BLUDB", <br />
+ > "username": "dash999999", <br />
+ > "ssljdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;", <br />
+ > "host": "awh-yp-small99.services.dal.bluemix.net", <br />
+ > "https\_url": "https://awh-yp-small99.services.dal.bluemix.net:8443", <br />
+ > "dsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;", <br />
+ > "hostname": "awh-yp-small99.services.dal.bluemix.net", <br />
+ > "jdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50000/BLUDB", <br />
+ > "ssldsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;Security=SSL;", <br />
+ > "uri": "db2://dash999999:ANupNAirAjxy1@awh-yp-small99.services.dal.bluemix.net:50000/BLUDB", <br />
+ > "password": "ANupNAirAjxy1" <br />
  > }
 
 5.  Copy the credentials by clicking on the blue square (<img src="./media/image4.png" width="30" height="36" />) on the top right corner of the window and paste it into a notepad (Windows) / textedit (Mac) / vi (Linux). This information will be needed later for use in DataWorks Forge to create and establish the connection to dashDB.
