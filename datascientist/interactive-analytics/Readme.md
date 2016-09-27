@@ -64,7 +64,7 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 
 ![add data asset](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/adddataassets.png)
 
-  a.	Now click on Connection -> New Connection
+  a.	Now click on the '1001' icon then Connections -> New Connection
   
 ![add data connection](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/newaddconnection.png)
 
@@ -80,11 +80,11 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 
   a.	Open your notebook in the project in 'Edit' mode using the pencil icon
 
-![edit notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/editnotebook.png)
+ ![edit notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/editnotebook.png)
 
-  b. 	Click on the '1010' icon to add a data source and click Connections to insert your DashDB connection
+  b. 	Click on the '1001' icon to add a data source and click Connections to insert your DashDB connection
 
-  ![add connection in notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/addconnectionNotebook.gif)
+  ![add connection in notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/addconnectionNotebook.png)
 
 
 1.	From the Notebook, connect to the sample sales database in dashDB
