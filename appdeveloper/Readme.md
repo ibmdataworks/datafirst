@@ -15,8 +15,8 @@ As an Application Developer, you need multiple application and data services tha
 
  <img src="./media/image1.png" width="487" height="175" />
 
-Watch Full Lab Video (Optional): 
- > [<img src="https://github.com/ibmdataworks/datafirst/blob/master/datascientist/media/AD Video.png" width="382">](https://youtu.be/T6Aa448WcU4 "Business Analyst")
+Watch Full Lab Video (Optional): https://youtu.be/jhFo47juTFI
+ > [<img src="https://github.com/ibmdataworks/datafirst/blob/master/datascientist/media/AD Video.png" width="382">](https://youtu.be/jhFo47juTFI "Business Analyst")
 
 
 #Step 1. Get on BlueMix...
