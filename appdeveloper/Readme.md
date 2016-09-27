@@ -9,7 +9,7 @@ As an Application Developer, you need multiple application and data services tha
 
 1.  **Source Data Repository**: **Cloudant NoSQL DB**
 
-2.  **Software Development Tools**: **dDevOps Services and Git **
+2.  **Software Development Tools**: **DevOps Services and Git **
 
 3.  **Runtime Environment**: **SDK for Node.js**
 
