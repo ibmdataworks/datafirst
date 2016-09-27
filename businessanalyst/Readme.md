@@ -5,7 +5,7 @@
 As a Business Analyst, you need to analyze, discover and visiualize business data to derive insights. Perform these hands-on exercises using guided exploration capabilities with IBM Watson Analytics platform on customer transaction data to uncover unique insights about product affinities.
  
 Watch Lab here: https://youtu.be/T6Aa448WcU4
-[![Video](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/media/BA Video.png)](https://youtu.be/T6Aa448WcU4 "Business Analyst")
+[<img src="https://github.com/ibmdataworks/datafirst/blob/master/datascientist/media/BA Video.png">](https://youtu.be/T6Aa448WcU4 "Business Analyst")
 
 #Step 1. Get a free IBM Watson Analytics account...
 
