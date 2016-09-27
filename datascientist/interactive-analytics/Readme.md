@@ -117,4 +117,4 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 --- 
 #### End of Lab
 
-##### Next Steps: Build your next Spark Analytics project using IBM Data Science Experience.
+##### [Next Steps: Build your next Spark Analytics project using IBM Data Science Experience.](https://github.com/ibmdataworks/datafirst/tree/master/datascientist/machinelearning)
