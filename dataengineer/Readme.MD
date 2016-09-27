@@ -62,9 +62,7 @@ Before You Begin
 
  > <img src="https://github.com/ibmdataworks/datafirst/blob/master/appdeveloper/media/image5.png" width="396" height="330" />
 
-#Step 2. 
-
-Initialize Source Data Repository: Object Storage Service
+Step 2. Initialize Source Data Repository: Object Storage Service
 =========================================================
 
 1.  From the Bluemix dashboard catalog menu search for “Object Storage”
@@ -99,7 +97,7 @@ Initialize Source Data Repository: Object Storage Service
 
 2.  From the top of the browser page click on the “Catalog” option. This will take you back to the Bluemix dashboard catalog menu.
 
-Initialize Target Data Repository: dashDB Service
+Step 3. Initialize Target Data Repository: dashDB Service
 =================================================
 
 1.  From the Bluemix dashboard catalog menu search for “dashdb”
@@ -156,7 +154,7 @@ Initialize Target Data Repository: dashDB Service
 
 1.  From the top of the browser page click on the “Catalog” option. This will take you back to the Bluemix dashboard catalog menu.
 
-Transform and Migrate Data: DataWorks Forge Service
+Step 4. Transform and Migrate Data: DataWorks Forge Service
 ===================================================
 
 1.  From the Bluemix dashboard catalog menu search for “dataworks”
@@ -180,8 +178,7 @@ DataWorks Forge Service Introduction
 >
 > The flow diagram for creating a data migration process in DataWorks Forge is as shown below:
 
-Create Data Connections
------------------------
+#Step 5. Create Data Connections
 
 ### Create Source Data Connection
 
