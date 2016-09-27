@@ -176,9 +176,9 @@ please start from the step 3):
 
 Please use a default project for this lab:
 
-1. From DSX, select DSX data science mode (the button to click on is highlighted with the red rectangle): ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
+1. From DSX, select DSX data science context (the button to click on is highlighted with the red rectangle): ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
 
-2. Click on the menu icon ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Left-bar-menu-button.png) on the home page of DSX in Data Science mode
+2. Click on the menu icon ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Left-bar-menu-button.png) on the home page of DSX in Data Science context
 
 3. Select Projects > Default project in the open tool bar: the project management page for "Default project" will be shown
 ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Default-project-management.png)
@@ -301,10 +301,10 @@ by switching to the provisioned Object Storage service.
 
 #Step 7. Association Rules Lab Installation
 
-1.  Select DSX data science mode (please use the highlighted item to get to this menu):
+1.  Select DSX data science context (please use the highlighted item to get to this menu):
 ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-domain-button-highlighted.png)
 
-2.  Click on the menu icon ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Left-bar-menu-button.png) on the home page of DSX in Data Science mode
+2.  Click on the menu icon ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/Left-bar-menu-button.png) on the home page of DSX in Data Science context
 
 3.  Select RStudio in the open tool bar: RStudio session starts
 ![](https://github.com/ibmdataworks/datafirst/blob/master/datascientist/machinelearning/doc/media/DSX-side-toolbar.jpg)
