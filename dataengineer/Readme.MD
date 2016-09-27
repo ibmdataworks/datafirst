@@ -85,20 +85,20 @@ Step 2. Initialize Source Data Repository: Object Storage Service
 
 8.  Select the Key Name for your service (e.g. Credentials-1) and select the “View Credentials” down triangle (<img src="./media/image3.png" width="157" height="31" /> ) under the ACTIONS column.
 
- > It will show the credential details similar to the following:
- >
- > { 
- > "auth\_url": "https://identity.open.softlayer.com", 
- > "project": "object\_storage\_abcd12e3\_4f56\_7a89\_1bc2\_3de45fa67bcd", 
- > "projectId": "ab12c3456d7891ef2345a6789bc1d23e", 
- > "region": "dallas", 
- > "userId": "123a4567890123456b789012cde34f56", 
- > "username": "admin\_123a4567890123455a67ce456b789012cde34f56", 
- > "password": "ANUP&3NaZiR4PD&r=", 
- > "domainId": "cc421938a87348739a6bdc374424273d", 
- > "domainName": "1531219", 
- > "role": "admin" 
- > }
+> It will show the credential details similar to the following:
+>
+> { 
+> "auth\_url": "https://identity.open.softlayer.com", 
+> "project": "object\_storage\_abcd12e3\_4f56\_7a89\_1bc2\_3de45fa67bcd", 
+> "projectId": "ab12c3456d7891ef2345a6789bc1d23e", 
+> "region": "dallas", 
+> "userId": "123a4567890123456b789012cde34f56", 
+> "username": "admin\_123a4567890123455a67ce456b789012cde34f56", 
+> "password": "ANUP&3NaZiR4PD&r=", 
+> "domainId": "cc421938a87348739a6bdc374424273d", 
+> "domainName": "1531219", 
+> "role": "admin" 
+> }
 
 1.  Copy the credentials by clicking on the blue square (<img src="./media/image4.png" width="30" height="36" />) on the top right corner of the window and paste it into a notepad (Windows) / textedit (Mac) / vi (Linux). This information will be needed later for use in DataWorks Forge to create and establish the connection to the object store.
 
