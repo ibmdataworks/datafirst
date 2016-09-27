@@ -49,9 +49,10 @@ The dashDB service is provisioned along with sample database and lab exercise wi
 ---
 #Step 3. Load Notebook and Perform Analysis
 
-1. On next screen, click on ‘New Notebook’ to create a notebook.
+1. At the top of the screen click the plus-sign icon to create a notebook.
 
- ![new notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/newNotebook.gif)
+ ![new notebook]()
+ 
 2. Type ‘IA_Lab_Notebook’ as Notebook name, click on ‘from URL’ link and specify:  https://raw.githubusercontent.com/ibmdataworks/datafirst/master/datascientist/interactive-analytics/DSX_IA_Lab.ipynb
 
  ![start notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/createNotebook.gif)
@@ -59,17 +60,21 @@ The dashDB service is provisioned along with sample database and lab exercise wi
   a.	 Select ‘Trust this Notebook to run with your Privileges’ and click on ‘Create Notebook’
   
  ![trust notebook](https://github.com/ibmdataworks/datafirst/raw/master/datascientist/interactive-analytics/media/sparkService.gif)
-1. Once notebook is created, add connection details to access data sources.
+1. Once notebook is created, add dashDB as a data asset for the project
 
-  a.	On top left menu, click Menu -> Connections -> Create Connection
+![add data asset]()
 
-  b.	Key in ‘dashDB’ as connection name
+  a.	
+  
+  b. On top left menu, click Menu -> Connections -> Create Connection
 
-  c.	From drop down list of ‘Target Service Instance’ select ‘DS_Sales_DataStore’, the dashDb service you provisioned in Bluemix.
+  c.	Key in ‘dashDB’ as connection name
 
-  d.	Select ‘Database’ as ‘BLUDB’.
+  d.	From drop down list of ‘Target Service Instance’ select ‘DS_Sales_DataStore’, the dashDb service you provisioned in Bluemix.
 
-  e.	Click ‘Create’.
+  e.	Select ‘Database’ as ‘BLUDB’.
+
+  f.	Click ‘Create’.
 
 1.	Go back to your default project (using the menu on the top left) to open your Notebook and add the data source
 
