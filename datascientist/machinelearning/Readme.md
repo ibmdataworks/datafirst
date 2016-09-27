@@ -56,8 +56,8 @@
         -   RStudio-apriori-demo-installation.R – R code for installing software packages for the machine learning lab (association rules)
 
 2.  Login to your IBM DSX account at:  <http://datascience.ibm.com/>
-> NOTE: If you don’t have a DSX account then get started by registering
-> at <https://datasciencex.typeform.com/to/hWECJ3>
+> NOTE: If you don’t have a DSX account then get started by [following these directions](https://github.com/ibmdataworks/datafirst/tree/master/datascientist#step-1-get-on-ibm-data-science-experience-dsx)
+>
 3.  A quick outline of the procedures:
 
     a.  Decision tree lab (based on the DSX notebooks):
