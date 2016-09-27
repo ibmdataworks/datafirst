@@ -6,6 +6,8 @@ This lab exercise uses an IPython Notebook in Data Science Experience to connect
 
 ![overview](https://github.com/gfilla/testing/raw/master/media/overview.gif)
 
+Lab Video: https://youtu.be/sHm4IHHZq2w
+
 
 #Step 1. Provision dashDB
 
