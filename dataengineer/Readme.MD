@@ -85,28 +85,28 @@ Step 2. Initialize Source Data Repository: Object Storage Service
 
 8.  Select the Key Name for your service (e.g. Credentials-1) and select the “View Credentials” down triangle (<img src="./media/image3.png" width="157" height="31" /> ) under the ACTIONS column.
 
-> It will show the credential details similar to the following:
->
-> { <br />
-> "auth\_url": "https://identity.open.softlayer.com", <br />
-> "project": "object\_storage\_abcd12e3\_4f56\_7a89\_1bc2\_3de45fa67bcd", <br />
-> "projectId": "ab12c3456d7891ef2345a6789bc1d23e", <br />
-> "region": "dallas", <br />
-> "userId": "123a4567890123456b789012cde34f56", <br />
-> "username": "admin\_123a4567890123455a67ce456b789012cde34f56", <br />
-> "password": "ANUP&3NaZiR4PD&r=", <br />
-> "domainId": "cc421938a87348739a6bdc374424273d", <br />
-> "domainName": "1531219", <br />
-> "role": "admin" <br />
-> }
+ > It will show the credential details similar to the following:
+ >
+ > { <br />
+ > "auth\_url": "https://identity.open.softlayer.com", <br />
+ > "project": "object\_storage\_abcd12e3\_4f56\_7a89\_1bc2\_3de45fa67bcd", <br />
+ > "projectId": "ab12c3456d7891ef2345a6789bc1d23e", <br />
+ > "region": "dallas", <br />
+ > "userId": "123a4567890123456b789012cde34f56", <br />
+ > "username": "admin\_123a4567890123455a67ce456b789012cde34f56", <br />
+ > "password": "ANUP&3NaZiR4PD&r=", <br />
+ > "domainId": "cc421938a87348739a6bdc374424273d", <br />
+ > "domainName": "1531219", <br />
+ > "role": "admin" <br />
+ > }
 
-1.  Copy the credentials by clicking on the blue square (<img src="./media/image4.png" width="30" height="36" />) on the top right corner of the window and paste it into a notepad (Windows) / textedit (Mac) / vi (Linux). This information will be needed later for use in DataWorks Forge to create and establish the connection to the object store.
+9.  Copy the credentials by clicking on the blue square (<img src="./media/image4.png" width="30" height="36" />) on the top right corner of the window and paste it into a notepad (Windows) / textedit (Mac) / vi (Linux). This information will be needed later for use in DataWorks Forge to create and establish the connection to the object store.
 
-> From the credential details above, only the values from the following tokens ( as highlighted in blue) will be needed in DataWorks Forge to establish connection to the Object Store: "auth\_url", "projectId", "region", "userId", "password"
+ > From the credential details above, only the values from the following tokens ( as highlighted in blue) will be needed in DataWorks Forge to establish connection to the Object Store: "auth\_url", "projectId", "region", "userId", "password"
 
-1.  The source data repository to be used with DataWorks Forge later is now ready. Let’s create a target data repository.
+10.  The source data repository to be used with DataWorks Forge later is now ready. Let’s create a target data repository.
 
-2.  From the top of the browser page click on the “Catalog” option. This will take you back to the Bluemix dashboard catalog menu.
+11.  From the top of the browser page click on the “Catalog” option. This will take you back to the Bluemix dashboard catalog menu.
 
 Step 3. Initialize Target Data Repository: dashDB Service
 =================================================
@@ -119,37 +119,37 @@ Step 3. Initialize Target Data Repository: dashDB Service
 
 4.  From the dashDB Service menu (scroll up the browser page), click on “Service Credentials” option (you may have to click on the double arrow button on the “Back to Dashboard for…” option).
 
-> It will show the credential details similar to the following:
->
-> {
-> "credentials": {
-> "port": 50000,
-> "db": "BLUDB",
-> "username": "dash999999",
-> "ssljdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;",
-> "host": "awh-yp-small99.services.dal.bluemix.net",
-> "https\_url": "https://awh-yp-small99.services.dal.bluemix.net:8443",
-> "dsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;",
-> "hostname": "awh-yp-small99.services.dal.bluemix.net",
-> "jdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50000/BLUDB",
-> "ssldsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;Security=SSL;",
-> "uri": "db2://dash999999:ANupNAirAjxy1@awh-yp-small99.services.dal.bluemix.net:50000/BLUDB",
-> "password": "ANupNAirAjxy1"
-> }
+ > It will show the credential details similar to the following:
+ >
+ > {
+ > "credentials": {
+ > "port": 50000,
+ > "db": "BLUDB",
+ > "username": "dash999999",
+ > "ssljdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50001/BLUDB:sslConnection=true;",
+ > "host": "awh-yp-small99.services.dal.bluemix.net",
+ > "https\_url": "https://awh-yp-small99.services.dal.bluemix.net:8443",
+ > "dsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50000;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;",
+ > "hostname": "awh-yp-small99.services.dal.bluemix.net",
+ > "jdbcurl": "jdbc:db2://awh-yp-small99.services.dal.bluemix.net:50000/BLUDB",
+ > "ssldsn": "DATABASE=BLUDB;HOSTNAME=awh-yp-small99.services.dal.bluemix.net;PORT=50001;PROTOCOL=TCPIP;UID=dash999999;PWD=ANupNAirAjxy1;Security=SSL;",
+ > "uri": "db2://dash999999:ANupNAirAjxy1@awh-yp-small99.services.dal.bluemix.net:50000/BLUDB",
+ > "password": "ANupNAirAjxy1"
+ > }
 
-1.  Copy the credentials by clicking on the blue square (<img src="./media/image4.png" width="30" height="36" />) on the top right corner of the window and paste it into a notepad (Windows) / textedit (Mac) / vi (Linux). This information will be needed later for use in DataWorks Forge to create and establish the connection to dashDB.
+5.  Copy the credentials by clicking on the blue square (<img src="./media/image4.png" width="30" height="36" />) on the top right corner of the window and paste it into a notepad (Windows) / textedit (Mac) / vi (Linux). This information will be needed later for use in DataWorks Forge to create and establish the connection to dashDB.
 
-> From the credential details above, only the values from the following tokens ( as highlighted in blue) will be needed in DataWorks Forge to establish connection to dashDB: "host", "db", "username", "password"
->
-> NOTE: You can also retrieve the connection information by Opening the dashDB console (Manage-&gt;Open from dashboard) and within the console clicking on “Connect-&gt; Connection information”. You get the information screen similar to the following:
->
-> <img src="./media/image6.png" width="559" height="162" />
+ > From the credential details above, only the values from the following tokens ( as highlighted in blue) will be needed in DataWorks Forge to establish connection to dashDB: "host", "db", "username", "password"
+ >
+ > NOTE: You can also retrieve the connection information by Opening the dashDB console (Manage-&gt;Open from dashboard) and within the console clicking on “Connect-&gt; Connection information”. You get the information screen similar to the following:
+ >
+ > <img src="./media/image6.png" width="559" height="162" />
 
-1.  The target data repository to be used with DataWorks Forge later is now ready. Let’s work with DataWorks Forge to transform and migrate data.
+6.  The target data repository to be used with DataWorks Forge later is now ready. Let’s work with DataWorks Forge to transform and migrate data.
 
-> NOTE: Although we have created the database service, it is optional to port the source schema to this target database. More information about this in the next section.
+ > NOTE: Although we have created the database service, it is optional to port the source schema to this target database. More information about this in the next section.
 
-1.  From the top of the browser page click on the “Catalog” option. This will take you back to the Bluemix dashboard catalog menu.
+7.  From the top of the browser page click on the “Catalog” option. This will take you back to the Bluemix dashboard catalog menu.
 
 Step 4. Transform and Migrate Data: DataWorks Forge Service
 ===================================================
