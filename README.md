@@ -5,7 +5,7 @@
 
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/team image.png">](https://github.com/ibmdataworks/datafirst/)
 [<img src="https://github.com/ibmdataworks/datafirst/raw/master/datascientist/media/E2E.png">](https://github.com/ibmdataworks/datafirst/)
-###Accelerating End to End Analytics from weeks to minutes...
+###Accelerating End to End Analytics from months to minutes...
 ##[Business Analyst Lab - Click Here](https://github.com/ibmdataworks/datafirst/raw/master/businessanalyst/)
 As a Business Analyst, you need to analyze, discover and visiualize business data to derive insights.
 Perform this hands-on lab using guided exploration capabilities on customer transaction data to uncover unique insights about product affinities.
