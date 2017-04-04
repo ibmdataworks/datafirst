@@ -1,5 +1,5 @@
 _plan_=s
-_home_=/gpfs/fs01/user/s42e-55d894c6e38e83-b36e0daf8e2e
+_home_=/gpfs/fs01/user/sa7b-75f82ff136775c-a0d2bab01af5
 
 
 SPARK_HOME=${SPARK_HOME:-/usr/local/src/spark20master/spark}
@@ -78,7 +78,7 @@ export LANG=en_US.UTF-8
 # Redirect spark executor logs to tenant home directory in GPFS
 SPARK_EGO_LOG_DIR=~/logs/spark/executor
 
-export NOTEBOOK_HOME=/usr/local/src/bluemix_jupyter_bundle.v36/notebook
+export NOTEBOOK_HOME=/usr/local/src/bluemix_jupyter_bundle.v37/notebook
 export PYSPARK_PYTHON=$NOTEBOOK_HOME/bin/python
 
 _old_options=${-}
@@ -91,9 +91,9 @@ if [[ $_old_options != *a* ]]; then
 fi
 unset _old_options
 
-export DEPLOY_HOME=/usr/local/src/bluemix_jupyter_bundle.v36
+export DEPLOY_HOME=/usr/local/src/bluemix_jupyter_bundle.v37
 export R_LIBS_USER=~/R/libs
-export R_HOME_PREFIX=/usr/local/src/bluemix_jupyter_bundle.v36
+export R_HOME_PREFIX=/usr/local/src/bluemix_jupyter_bundle.v37
 
 
 
